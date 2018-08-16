@@ -2,10 +2,24 @@
 
 
 @font-face {
+  font-family: MetropolisExtraBold;
+  font-display: swap;
+  //font-weight: 500;
+  src: url("../fonts/metropolis/Metropolis-ExtraBold.otf") format("opentype");
+
+}
+@font-face {
+  font-family: MetropolisBold;
+  font-display: swap;
+  //font-weight: 500;
+  src: url("../fonts/metropolis/Metropolis-Bold.otf") format("opentype");
+
+}
+@font-face {
   font-family: MetropolisSemiBold;
   font-display: swap;
-  font-weight: 500;
-  src: url("../fonts/metropolis/Metropolis-SemiBold") format("opentype");
+  //font-weight: 500;
+  src: url("../fonts/metropolis/Metropolis-SemiBold.otf") format("opentype");
 
 }
 
@@ -14,16 +28,15 @@
   font-family: MetropolisMedium;
   font-display: swap;
 
-  src: url("../fonts/metropolis/Metropolis-Medium") format("opentype");
+  src: url("../fonts/metropolis/Metropolis-Medium.otf") format("opentype");
 
 }
 
+//
 @font-face {
-
-
   font-family: MetropolisRegular;
   font-display: swap;
 
-  src: url("../fonts/metropolis/Metropolis-Regular") format("opentype");
+  src: url("../fonts/metropolis/Metropolis-Regular.otf") format("opentype");
 
 }
