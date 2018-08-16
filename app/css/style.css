@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -28,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
   display: block; }
 
 body {
-  line-height: 1; }
+  line-height: 1;
+  overflow: hidden; }
 
 ol, ul {
   list-style: none; }
@@ -120,6 +122,8 @@ a {
   .top-navigation .nav-menu.active {
     margin-top: 5.5em;
     visibility: visible; }
+    .top-navigation .nav-menu.active .nav-more-link > a {
+      display: none; }
   .top-navigation .nav-login-btn {
     border: 1px solid white;
     margin-top: 1em;
@@ -253,21 +257,87 @@ header.nav-active-bg {
     justify-content: space-between;
     max-width: 1100px;
     position: relative;
-    width: 100%;
     margin: 0 auto;
     z-index: 1000;
     top: 0; }
     .top-navigation .logo-link {
       margin: 0;
       width: 100px;
-      height: 80px; }
+      height: 80px;
+      flex: 20%; }
     .top-navigation .nav-menu {
       display: flex;
       justify-content: space-between;
       position: initial;
       visibility: visible; }
+      .top-navigation .nav-menu > li {
+        -webkit-transition: all 0.6s;
+        -moz-transition: all 0.6s;
+        -ms-transition: all 0.6s;
+        -o-transition: all 0.6s;
+        transition: all 0.6s; }
+        .top-navigation .nav-menu > li:after {
+          content: '';
+          width: 0%;
+          background: white;
+          height: 2px;
+          display: block;
+          -webkit-transition: all 0.6s;
+          -moz-transition: all 0.6s;
+          -ms-transition: all 0.6s;
+          -o-transition: all 0.6s;
+          transition: all 0.6s; }
+        .top-navigation .nav-menu > li:hover:after {
+          width: 100%; }
+      .top-navigation .nav-menu .nav-more-link {
+        position: relative; }
+        .top-navigation .nav-menu .nav-more-link > a:after {
+          content: '▼';
+          font-size: 0.8em;
+          margin-left: 0.7px; }
+        .top-navigation .nav-menu .nav-more-link:hover .sub-menu {
+          display: block;
+          opacity: 1; }
       .top-navigation .nav-menu .sub-menu {
-        display: none; }
+        display: none;
+        width: 200%;
+        padding: 1em 0;
+        position: absolute;
+        -webkit-transition: all 0.8s;
+        -moz-transition: all 0.8s;
+        -ms-transition: all 0.8s;
+        -o-transition: all 0.8s;
+        transition: all 0.8s;
+        top: 100%;
+        left: -50%;
+        background-color: #fff;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        opacity: 0;
+        -webkit-transition: all 0.6s;
+        -moz-transition: all 0.6s;
+        -ms-transition: all 0.6s;
+        -o-transition: all 0.6s;
+        transition: all 0.6s; }
+        .top-navigation .nav-menu .sub-menu li {
+          background: white; }
+          .top-navigation .nav-menu .sub-menu li:hover {
+            background: #2f79dd;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            border-radius: 6px;
+            -webkit-transition: all 0.7s;
+            -moz-transition: all 0.7s;
+            -ms-transition: all 0.7s;
+            -o-transition: all 0.7s;
+            transition: all 0.7s;
+            transform: scale(1.05); }
+            .top-navigation .nav-menu .sub-menu li:hover a {
+              color: white; }
+          .top-navigation .nav-menu .sub-menu li a {
+            padding: 1em;
+            color: #1a5285; }
   header {
     height: 105vh;
     margin-top: -200px;
@@ -278,6 +348,12 @@ header.nav-active-bg {
       -webkit-background-size: contain;
       background-size: contain;
       height: 105vh; }
+      header .header-inner .map-wrapper {
+        background: url(../img/map.png) no-repeat;
+        background-position: 484%;
+        background-size: 96%;
+        height: 100%;
+        background-position-y: -10vh; }
       header .header-inner .container {
         transform: skewY(-6deg);
         padding-top: 100px;

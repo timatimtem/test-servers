@@ -94,6 +94,11 @@ a{
     margin-top: 5.5em;
 
     visibility: visible;
+
+    .nav-more-link > a{
+      display: none;
+
+    }
   }
 
 
@@ -322,7 +327,6 @@ header.nav-active-bg{
     max-width: 1100px;
 
     position: relative;
-    width: 100%;
     margin: 0 auto;
     z-index: 1000;
     top: 0;
@@ -331,6 +335,7 @@ header.nav-active-bg{
       margin: 0;
       width: 100px;
       height: 80px;
+      flex: 20%;
     }
     .nav-menu{
       display: flex;
@@ -339,16 +344,132 @@ header.nav-active-bg{
 
       visibility: visible;
 
+       & > li{
 
-      .sub-menu{
-        display: none;
+
+         &:after{
+           content: '';
+
+           width: 0%;
+
+           background: white;
+           height: 2px;
+           display: block;
+
+           -webkit-transition: all 0.6s;
+           -moz-transition: all 0.6s;
+           -ms-transition: all 0.6s;
+           -o-transition: all 0.6s;
+           transition: all 0.6s;
+         }
+
+         -webkit-transition: all 0.6s;
+         -moz-transition: all 0.6s;
+         -ms-transition: all 0.6s;
+         -o-transition: all 0.6s;
+         transition: all 0.6s;
+         &:hover{
+
+           &:after{
+             width: 100%;
+           }
+         }
+       }
+
+      
+      
+      .nav-more-link{
+        position: relative;
+
+        & > a{
+          &:after{
+            content: '▼';
+            font-size: 0.8em;
+            margin-left: 0.7px;
+
+          }
+        }
+        
+        &:hover{
+          .sub-menu{
+             display: block;
+
+
+            opacity: 1;
+          }
+        }
       }
 
 
+      .sub-menu{
+        display: none;
+        width: 200%;
+
+        padding: 1em 0;
+
+
+        position: absolute;
+
+        -webkit-transition: all 0.8s;
+        -moz-transition: all 0.8s;
+        -ms-transition: all 0.8s;
+        -o-transition: all 0.8s;
+        transition: all 0.8s;
+
+        top: 100%;
+        left: -50%;
+
+        background-color: #fff;
+
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+
+
+        li{
+          background: white;
+
+          &:hover{
+
+            background: #2f79dd;
+
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            border-radius: 6px;
+            -webkit-transition: all 0.7s;
+            -moz-transition: all 0.7s;
+            -ms-transition: all 0.7s;
+            -o-transition: all 0.7s;
+            transition: all 0.7s;
+            transform: scale(1.05);
+
+            a{
+              color: white;
+            }
+          }
 
 
 
+          a{
+            padding: 1em;
 
+             color: #1a5285;
+
+          }
+        }
+
+
+
+        opacity: 0;
+        -webkit-transition: all 0.6s;
+        -moz-transition: all 0.6s;
+        -ms-transition: all 0.6s;
+        -o-transition: all 0.6s;
+        transition: all 0.6s;
+
+
+      }
+      
     }
 
   }
@@ -373,9 +494,16 @@ header.nav-active-bg{
       -webkit-background-size: contain;
       background-size: contain;
       height: 105vh;
-      &:before{
 
+
+      .map-wrapper{
+        background: url(../img/map.png) no-repeat;
+        background-position: 484%;
+        background-size: 96%;
+        height: 100%;
+        background-position-y: -10vh;
       }
+
 
 
       .container {
