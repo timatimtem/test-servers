@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ba45699-eedf-4d21-a076-1c4cb5fa7c05" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/gear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/logoblue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/north-america.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/north-america.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/speedometer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/_benefits.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/_home-locations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/_products.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_reset.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/style.scss" afterDir="false" />
     </list>
@@ -15,29 +27,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="387" column="28" selection-start-line="387" selection-start-column="28" selection-end-line="387" selection-end-column="28" />
+            <state relative-caret-position="330">
+              <caret line="184" selection-start-line="184" selection-end-line="191" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_reset.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scss/_reset.scss">
+      <file leaf-file-name="front-page.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="360">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/functions.php">
+      <file leaf-file-name="_home-locations.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scss/_home-locations.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="148" column="51" selection-start-line="148" selection-start-column="51" selection-end-line="148" selection-end-column="51" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -45,26 +57,62 @@
       <file leaf-file-name="header.php" pinned="true" current-in-tab="false">
         <entry file="remoteDeploymentFS://&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1290">
-              <caret line="86" column="31" lean-forward="true" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
+            <state relative-caret-position="150">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
+      <file leaf-file-name="style.css" pinned="true" current-in-tab="true">
+        <entry file="remoteDeploymentFS://&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+            <state relative-caret-position="30">
+              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/css/style.css">
+      <file leaf-file-name="_benefits.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scss/_benefits.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="436">
+              <caret line="99" column="164" selection-start-line="99" selection-start-column="164" selection-end-line="99" selection-end-column="164" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scss/_footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="811">
+              <caret line="120" column="22" selection-start-line="120" selection-start-column="22" selection-end-line="120" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="930">
+              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/functions.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="_products.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scss/_products.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -74,6 +122,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>span</find>
+      <find>max-w</find>
+      <find>btn</find>
+      <find>head</find>
+      <find>home</find>
+      <find>container</find>
+      <find>min</find>
+      <find>wrap</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,15 +140,19 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/scss/_fonts.scss" />
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/style.css" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/frontpage.php" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/front-page.php" />
+        <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/functions.php" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/scss/_reset.scss" />
+        <option value="$PROJECT_DIR$/app/scss/_home-locations.scss" />
+        <option value="$PROJECT_DIR$/app/scss/_products.scss" />
+        <option value="$PROJECT_DIR$/app/scss/style.scss" />
+        <option value="$PROJECT_DIR$/app/scss/_footer.scss" />
+        <option value="$PROJECT_DIR$/app/scss/_benefits.scss" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/footer.php" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/header.php" />
-        <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/functions.php" />
-        <option value="$PROJECT_DIR$/app/scss/_reset.scss" />
-        <option value="$PROJECT_DIR$/app/scss/style.scss" />
+        <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/style.css" />
       </list>
     </option>
   </component>
@@ -173,6 +232,9 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/img" />
     </key>
@@ -203,12 +265,13 @@
       <workItem from="1534327247795" duration="15889000" />
       <workItem from="1534354092660" duration="9340000" />
       <workItem from="1534422718683" duration="16917000" />
-      <workItem from="1534448997379" duration="6613000" />
+      <workItem from="1534448997379" duration="6683000" />
+      <workItem from="1534497468000" duration="29704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49449000" />
+    <option name="totallyTimeSpent" value="79223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1615" height="1054" extended-state="6" />
@@ -221,10 +284,11 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33044422" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.34416825" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15168898" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.3040153" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16698535" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -234,28 +298,27 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.34416825" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15232632" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.3040153" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16698535" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="File Transfer" order="12" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33044422" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
@@ -267,6 +330,34 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5805">
+          <caret line="387" column="31" selection-start-line="387" selection-start-column="31" selection-end-line="387" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3285">
@@ -396,31 +487,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/app/scss/_reset.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+        <state relative-caret-position="506">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/north-america.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="188">
+          <caret line="473" column="15" selection-start-line="473" selection-start-column="15" selection-end-line="473" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/_reset.scss">
+    <entry file="file://$PROJECT_DIR$/app/scss/_benefits.scs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/logoblue.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_products.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="296">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="811">
+          <caret line="120" column="22" selection-start-line="120" selection-start-column="22" selection-end-line="120" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_home-locations.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="387" column="28" selection-start-line="387" selection-start-column="28" selection-end-line="387" selection-end-column="28" />
+        <state relative-caret-position="330">
+          <caret line="184" selection-start-line="184" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_benefits.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="99" column="164" selection-start-line="99" selection-start-column="164" selection-end-line="99" selection-end-column="164" />
         </state>
       </provider>
     </entry>

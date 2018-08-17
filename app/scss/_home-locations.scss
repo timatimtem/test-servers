@@ -1,0 +1,99 @@
+//LOCATIONS PINS
+
+
+.locations-wrap{
+  display: flex;
+  flex-wrap: wrap;
+
+
+
+
+  .location{
+    padding: 10px 1em;
+    margin: 0 1em 1em 0;
+
+    font-family: MetropolisBold, sans-serif;
+    background-color: #d6e3f3;
+
+
+    color: #2f79dd;
+  }
+}
+
+
+
+@media screen and (min-width: 1100px) {
+
+  .locations-wrap {
+    display: initial;
+
+
+
+    .location {
+      background: none;
+      padding: 0;
+      position: absolute;
+      z-index: 998;
+      height: 12px;
+      width: 12px;
+
+    }
+  }
+
+
+
+  .location-los-angeles {
+    top: 72%;
+    left: 63%;
+  }
+
+  .location-new-york {
+    top: 64%;
+    left: 86%;
+  }
+
+  .location-dallas {
+    top:74%;
+    left: 80%;
+  }
+  .location-chicago {
+    top: 59%;
+    left: 76%;
+  }
+
+  .location-name {
+    position: absolute;
+    z-index: 999;
+    display: block;
+    height: 28px;
+  }
+
+  .location-los-angeles .location-name {
+    top: 58%;
+    left: 62%;
+  }
+
+  .location-name span {
+    display: block;
+    height: 28px;
+    padding: 0 10px;
+    background-color: white;
+    color: #2f79dd;
+    font-size: 14px;
+    line-height: 28px;
+    white-space: nowrap;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 5px 20px -5px rgba(11, 27, 38, 0.2);
+    box-shadow: 0 5px 20px -5px rgba(11, 27, 38, 0.2);
+  }
+
+
+
+
+
+
+}
+
+//----------

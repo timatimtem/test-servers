@@ -1,0 +1,129 @@
+
+
+
+
+footer{
+
+  background-color: #003386;
+
+  width: 100%;
+
+  color: white;
+
+
+
+  .footer-nav-wrap{
+    padding: 1em 0 0 1em;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+
+    .footer-nav-item{
+      padding: 1em 0;
+
+      width: 50%;
+      h4{
+
+        font-family: MetropolisBold, sans-serif;
+        font-size: 1.1em;
+
+      }
+
+
+      ul{
+        margin-top: 0.5em;
+
+        li{
+
+
+          a{
+            display: block;
+            padding: 10px 0;
+
+            color: white;
+
+            font-family: MetropolisRegular, sans-serif;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+
+
+    .footer-nav-img-wrap{
+
+      display: flex;
+      flex-wrap: wrap;
+      padding: 15px 0 0 0;
+      justify-content: flex-start;
+
+
+      li{
+        margin-right: 15px;
+        margin-bottom: 15px;
+        width: 50px;
+        background: white;
+        border-radius: 3px;
+      }
+
+      .footer-nav-img{
+        display: block;
+        height: 37px;
+        width: 48px;
+
+        background: center url("../img/logoblue.png") no-repeat;
+      }
+
+    }
+
+
+  }
+}
+
+
+
+@media screen and (min-width: 1100px){
+
+  footer{
+
+    padding: 2em 0;
+    .footer-nav-wrap{
+
+      max-width: 1190px;
+
+      margin: 0 auto;
+
+      .footer-nav-item{
+        width: 25%;
+
+        ul{
+
+          margin-top: 2em;
+
+          li{
+
+            a{
+
+              padding: 1em 0;
+            }
+          }
+        }
+      }
+
+      .footer-nav-img-wrap li{
+
+        width: 80px;
+
+        .footer-nav-img{
+          height: 50px;
+          width: 100%;
+        }
+      }
+    }
+
+
+  }
+
+}

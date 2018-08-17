@@ -110,6 +110,20 @@ a{
     margin-top: 1em;
     border-radius: 6px;
 
+    &:hover{
+
+      background: white;
+
+      a{
+        color: #2f79dd;
+      }
+
+      &:after{
+        display: none;
+      }
+
+    }
+
 
   }
 
@@ -122,6 +136,17 @@ a{
 
 
     margin-top: 1em;
+
+    &:hover{
+
+      background: #d6d6d6;
+
+
+      &:after{
+        display: none;
+      }
+
+    }
 
   }
 
@@ -155,31 +180,22 @@ header{
 
   width: 100%;
 
-  height: 100vh;
+  min-height: 100vh;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1653b1+0,2f79dd+100 */
+  background: #1653b1; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #1653b1 0%, #2f79dd 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #1653b1 0%,#2f79dd 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #1653b1 0%,#2f79dd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1653b1', endColorstr='#2f79dd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 
 
 
 
 
   .header-inner{
-    &:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      DISPLAY: BLOCK;
-      height: 100%;
-      WIDTH: 100%;
-      z-index: -1;
 
-
-      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1653b1+0,2f79dd+100 */
-      background: #1653b1; /* Old browsers */
-      background: -moz-linear-gradient(-45deg, #1653b1 0%, #2f79dd 100%); /* FF3.6-15 */
-      background: -webkit-linear-gradient(-45deg, #1653b1 0%,#2f79dd 100%); /* Chrome10-25,Safari5.1-6 */
-      background: linear-gradient(135deg, #1653b1 0%,#2f79dd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1653b1', endColorstr='#2f79dd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-    }
 
     .container{
 
@@ -234,7 +250,7 @@ header{
         color: #1a5285;
         display: block;
         text-align: center;
-        margin: 1em 1em;
+        margin: 2em 1em;
         padding: 0.9em 1.5em;
         background-color: white;
 
@@ -242,6 +258,17 @@ header{
         -webkit-border-radius: 25px;
         -moz-border-radius: 25px;
         border-radius: 25px;
+      }
+
+
+      .locations-wrap{
+        margin-top: 1em;
+      }
+      .arrow-down{
+        display: block;
+        width: 25px;
+
+        margin: 1em auto;
       }
     }
 
@@ -302,11 +329,15 @@ header.nav-active-bg{
 }
 
 
-
-
-
+@import "home-locations";
 
 @media screen and (min-width: 1100px) {
+
+
+
+  .container-60{
+    width: 60%;
+  }
 
 
   .nav-burger{
@@ -324,7 +355,7 @@ header.nav-active-bg{
     display: flex;
     justify-content: space-between;
 
-    max-width: 1100px;
+    max-width: 1190px;
 
     position: relative;
     margin: 0 auto;
@@ -345,6 +376,7 @@ header.nav-active-bg{
       visibility: visible;
 
        & > li{
+         position: relative;
 
 
          &:after{
@@ -353,8 +385,10 @@ header.nav-active-bg{
            width: 0%;
 
            background: white;
-           height: 2px;
+           height: 4px;
            display: block;
+           position: absolute;
+
 
            -webkit-transition: all 0.6s;
            -moz-transition: all 0.6s;
@@ -376,8 +410,8 @@ header.nav-active-bg{
          }
        }
 
-      
-      
+
+
       .nav-more-link{
         position: relative;
 
@@ -385,11 +419,10 @@ header.nav-active-bg{
           &:after{
             content: '▼';
             font-size: 0.8em;
-            margin-left: 0.7px;
-
+            margin-left: 0.7em;
           }
         }
-        
+
         &:hover{
           .sub-menu{
              display: block;
@@ -469,7 +502,7 @@ header.nav-active-bg{
 
 
       }
-      
+
     }
 
   }
@@ -477,54 +510,36 @@ header.nav-active-bg{
 
   header {
 
-    height: 105vh;
-    margin-top: -200px;
-
-    transform: skewY(-6deg);
-
-    background-color: #e9f7f4;
-
+    clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 96%);
 
     .header-inner {
-      
-
-      transform: skewY(12deg);
-
-
-      -webkit-background-size: contain;
-      background-size: contain;
-      height: 105vh;
+      background: url(../img/north-america.png) no-repeat;
+      /* background-position: 463%; */
+      background-size: 60%;
+      background-position-x: 100%;
+      overflow: hidden;
+      background-position-y: 20%;
 
 
-      .map-wrapper{
-        background: url(../img/map.png) no-repeat;
-        background-position: 484%;
-        background-size: 96%;
-        height: 100%;
-        background-position-y: -10vh;
-      }
-
-
+      min-height: 100vh;
 
       .container {
 
 
 
-        transform: skewY(-6deg);
-        padding-top: 100px;
 
-        max-width: 1100px;
+        max-width: 1190px;
 
         margin: 0 auto;
 
 
         .home-heading{
-          margin-top: 18%;
-          font-size: 2.5em;
+          margin-top: 10%;
+          font-size: 2.0em;
         }
 
         .home-description{
-          width: 50%;
+          margin-top: 3em;
           font-size: 1.2em;
           line-height: 1.4em;
 
@@ -534,16 +549,78 @@ header.nav-active-bg{
           font-size: 2em;
         }
 
+        .btn{
+
+          outline: none;
+          -webkit-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          -ms-transition: all 0.3s;
+          -o-transition: all 0.3s;
+          transition: all 0.3s;
+
+          box-shadow: none;
+
+          &:hover,
+          &:focus {
+
+            box-shadow: 0px 0px 20px 9px #2f79dd;
+          }
+
+          &:focus {
+            outline: 1px solid #fff;
+            outline-offset: -4px;
+          }
+
+          &:active {
+            transform: scale(0.99);
+          }
+        }
         .home-btn{
 
-          display: inline-block;
+          display: block;
 
-          padding: 1em 6.5em;
+          width: 50%;
+          padding: 1em 2.5em;
 
           font-size: 1.3em;
-          margin: 1em 0;
+          margin: 3em 0;
 
         }
+
+        .arrow-down{
+          width: 50px;
+          margin: 5em 25% 4em;
+
+          position: relative;
+
+          top: 0;
+
+          position: relative;
+          -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+          -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+          -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+          animation-name: example;
+          animation-duration: 4s;
+          animation-iteration-count: infinite;
+        }
+
+        /* Standard syntax */
+        @keyframes example {
+          0% {
+            left: 0px;
+            top: 0px;
+          }
+          50% {
+            left: 0px;
+            top: 25px;
+          }
+
+          100% {
+            left: 0px;
+            top: 0px;
+          }
+        }
+
 
 
       }
@@ -563,3 +640,10 @@ header.nav-active-bg{
 
 
 }
+
+
+@import "products";
+
+@import "benefits";
+
+@import "footer";
