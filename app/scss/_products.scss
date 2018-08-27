@@ -1,4 +1,4 @@
-
+@import "var";
 
 .product-section{
   background: #f5f5f5;
@@ -51,8 +51,10 @@
   .product-title{
     color: #0853a6;
     text-align: center;
-    font-family: MetropolisSemiBold, sans-serif;
-    font-size: 1.2em;
+    font-family: MetropolisBold, sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    text-transform: uppercase;
   }
 
   .product-description{
@@ -86,19 +88,25 @@
 
     .get-started-btn{
       cursor: pointer;
-      background-color: red;
-
+      background-color: #185dbf;
       color: white;
+      font-family: MetropolisBold, sans-serif;
+      font-size: 13px;
+      padding: 10px 12px;
 
-      padding: 10px;
-
-      -webkit-border-radius: 6px;
-      -moz-border-radius: 6px;
-      border-radius: 6px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
       margin: 0 auto;
 
-      &.vps{
-        background-color: blue;
+      -webkit-transition: background-color 0.7s;
+      -moz-transition: background-color 0.7s;
+      -ms-transition: background-color 0.7s;
+      -o-transition: background-color 0.7s;
+      transition: background-color 0.7s;
+
+      &:hover{
+        background-color: red;
       }
     }
   }
@@ -118,14 +126,19 @@
 
 
 
-@media screen  and (min-width: 1100px){
+@media screen  and (min-width: $layout-breakpoint-1024){
 
 
   .product-section{
-    padding: 5em 0;
+    padding: 6em 0;
+
+
+    -webkit-clip-path:polygon(0% 5%, 50% 0%, 100% 4%, 100% 0%, 100% 93%, 50% 100%, 0% 100%);
+    clip-path: polygon(0% 5%, 50% 0%, 100% 4%, 100% 0%, 100% 93%, 50% 100%, 0% 100%);
+
 
     .section-header{
-        font-size: 2em;
+        font-size: 20px;
     }
 
 
@@ -133,23 +146,38 @@
 
       flex-direction: row;
 
-      width: 1000px;
+      max-width: 1000px;
       margin: 0 auto;
-      justify-content: space-around;
+      justify-content: center;
+
+
       .product{
+        margin: 0 40px !important;
 
         &:last-child{
+
           margin-bottom: 2em;
+
         }
+
+        .product-description{
+          line-height: 1.6;
+          font-size: 14px;
+
+          min-height: 60px;
+          max-height: 91px;
+          overflow: hidden;
+        }
+
+
+
+
+
         background: transparent;
 
-        padding: 4em 3em;
-
-
-
-
+        padding: 1.8em 2em;
         box-shadow: none;
-        width: 35%;
+        width: 30%;
 
         -webkit-transition: all 0.6s;
         -moz-transition: all 0.6s;
@@ -162,7 +190,17 @@
           box-shadow: 0 0 10px 0 darkgray;
         }
 
+        .product-footer{
 
+          font-family: MetropolisBold, sans-serif;
+          font-size: 16px;
+
+          .product-price{
+            font-family: MetropolisSemiBold, sans-serif;
+            font-size: 26px;
+            margin-left: 10px;
+          }
+        }
 
       }
     }

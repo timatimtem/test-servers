@@ -1,5 +1,14 @@
+@import "var";
 @import "reset";
 @import "fonts";
+
+
+
+
+body{
+
+  background-color: #d3dff1;
+}
 
 
 a{
@@ -7,8 +16,6 @@ a{
   text-decoration: none;
   font-weight: bold;
 }
-
-
 
 
 //TOP NAVIGATION
@@ -27,20 +34,15 @@ a{
   transition: all 0.5s;
 
 
-
-
-
   .logo-link{
     display: inline-block;
 
-    background: url("../img/logo.png") no-repeat;
+    background: url("../img/logo-servers.png") no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
     width: 80px;
     height: 65px;
     margin-left: 20px;
-
-
   }
 
 
@@ -76,7 +78,7 @@ a{
       a{
         font-size: 1em;
         display: block;
-        padding: 1em 2em;
+        padding: 1em 20px;
         color: white;
 
 
@@ -178,9 +180,8 @@ a{
 // Header
 header{
 
-  width: 100%;
+  //width: 100%;
 
-  min-height: 100vh;
 
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1653b1+0,2f79dd+100 */
   background: #1653b1; /* Old browsers */
@@ -200,9 +201,6 @@ header{
     .container{
 
       padding: 1em;
-
-
-
 
       .home-heading{
         margin-top: 10%;
@@ -296,7 +294,7 @@ header.nav-active-bg{
 
 
 
-
+// Burger Menu
 .nav-burger {
   display: inline-block;
   cursor: pointer;
@@ -329,14 +327,21 @@ header.nav-active-bg{
 }
 
 
+
 @import "home-locations";
 
-@media screen and (min-width: 1100px) {
+
+
+#map-header-svg{
+  display: none;
+}
+
+@media screen and (min-width: $layout-breakpoint-1024) {
 
 
 
-  .container-60{
-    width: 60%;
+  .container-50{
+    width: 50%;
   }
 
 
@@ -424,6 +429,10 @@ header.nav-active-bg{
         }
 
         &:hover{
+          &:after{
+            display: none;
+          }
+
           .sub-menu{
              display: block;
 
@@ -436,9 +445,8 @@ header.nav-active-bg{
 
       .sub-menu{
         display: none;
-        width: 200%;
+        width: 100%;
 
-        padding: 1em 0;
 
 
         position: absolute;
@@ -450,7 +458,6 @@ header.nav-active-bg{
         transition: all 0.8s;
 
         top: 100%;
-        left: -50%;
 
         background-color: #fff;
 
@@ -460,9 +467,14 @@ header.nav-active-bg{
 
 
         li{
-          background: white;
+
+          width: 100%;
+
+          box-shadow: none;
 
           &:hover{
+
+            box-shadow: inset 0  0  8px 0 #1651aa;
 
             background: #2f79dd;
 
@@ -500,7 +512,6 @@ header.nav-active-bg{
         -o-transition: all 0.6s;
         transition: all 0.6s;
 
-
       }
 
     }
@@ -508,24 +519,47 @@ header.nav-active-bg{
   }
 
 
+
+  #map-header-svg{
+    display: block !important;
+    position: absolute;
+
+  z-index: -1;
+    width: 75%;
+    right: 0;
+    top: -175px;
+  }
+
+
+  circle {
+    fill: white;
+    stroke: white;
+  }
+
+
+
   header {
 
-    clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 96%);
+
+    -webkit-clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 91%);
+    clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 91%);
+
 
     .header-inner {
-      background: url(../img/north-america.png) no-repeat;
-      /* background-position: 463%; */
-      background-size: 60%;
-      background-position-x: 100%;
-      overflow: hidden;
-      background-position-y: 20%;
+      // background: url('../img/map.png') no-repeat;
+      //
+      //background-position: -10% 75%;
 
 
-      min-height: 100vh;
+      //background: url(../img/north-america.svg) no-repeat;
+      //background-position: 90% 75%;
+
+      padding-bottom: 120px;
+      margin-bottom: -31px;
+
+
 
       .container {
-
-
 
 
         max-width: 1190px;
@@ -534,19 +568,20 @@ header.nav-active-bg{
 
 
         .home-heading{
-          margin-top: 10%;
-          font-size: 2.0em;
+          margin-top: 15%;
+          font-size: 1.875em;
         }
 
         .home-description{
-          margin-top: 3em;
-          font-size: 1.2em;
+          margin-top: 2.4em;
+          font-size: 0.9357em;
           line-height: 1.4em;
 
         }
 
         .home-subheading{
-          font-size: 2em;
+          font-size: 1.25em;
+          margin-top: 2.4em;
         }
 
         .btn{
@@ -557,6 +592,8 @@ header.nav-active-bg{
           -ms-transition: all 0.3s;
           -o-transition: all 0.3s;
           transition: all 0.3s;
+
+          margin-top: 2.4em;
 
           box-shadow: none;
 
@@ -577,12 +614,19 @@ header.nav-active-bg{
         }
         .home-btn{
 
+
+
+          &:active{
+
+            outline: none;
+          }
+
+
           display: block;
 
-          width: 50%;
-          padding: 1em 2.5em;
+          width: 38%;
 
-          font-size: 1.3em;
+          font-size: 1em;
           margin: 3em 0;
 
         }
@@ -646,4 +690,6 @@ header.nav-active-bg{
 
 @import "benefits";
 
+
+@import "packages";
 @import "footer";

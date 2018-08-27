@@ -1,0 +1,353 @@
+@import "var";
+
+.packages-section{
+  background: #f5f5f5;
+
+  padding: 3em  1.5em;
+
+
+  .packages-footer{
+    margin-top: 1em;
+    text-align: center;
+
+    .get-more-servers-link{
+
+      font-family:  MetropolisBold, sans-serif;
+
+      color: #36b99f;
+      border-bottom: 2px solid #36b99f;
+
+      font-size: 0.8em;
+    }
+
+  }
+
+  .packages-section-title{
+    text-align: center;
+    font-size: 1.3em;
+    font-family: MetropolisBold, sans-serif;
+    margin-bottom: 1.5em;
+  }
+  
+
+
+
+  .packages-nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-bottom: 1.5em;
+
+    .package-nav-link{
+
+      cursor: pointer;
+      font-size: 0.7em;
+
+      color: #acacac;
+      padding: 1em;
+
+      font-family: MetropolisBold, sans-serif;
+
+
+      &.active{
+
+
+        position: relative;
+        color: #3f80d5;
+
+        font-family: MetropolisBold, sans-serif;
+
+        &:after{
+          content: "";
+          position: absolute;
+          bottom: 0;
+          height: 2px;
+          width: 100%;
+          left: 0;
+          background-color: #3f80d5;
+
+        }
+
+      }
+    }
+
+
+  }
+
+
+
+  .packages-wrap{
+
+    .package-row{
+
+      display: flex;
+      flex-wrap: wrap;
+
+      .package{
+
+        -webkit-animation: fadeEffect 1s;
+        animation: fadeEffect 1s;
+
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+
+
+        background-color: #fff;
+
+        box-shadow: 0 0 10px 0 #ddd;
+
+        padding: 1.5em;
+        margin-bottom: 1.5em;
+
+        .trial-flex{
+          display: flex;
+          align-items: center;
+          justify-content: space-between !important;
+        }
+
+        .package-title{
+          font-family: MetropolisBold, sans-serif;
+          font-size: 1.5em;
+          color: #505050;
+          margin-bottom: 1em;
+
+          .trial-title{
+            font-family: MetropolisBold, sans-serif;
+            font-size: 12px;
+            color: #2f79dd;
+          }
+        }
+
+        .package-price-wrap{
+
+          font-family: MetropolisBold, sans-serif;
+
+          font-size: 12px;
+          display: flex;
+
+          flex-wrap: wrap;
+          align-items: center;
+
+          color: #959595;
+
+          margin-bottom: 1.5em;
+
+          .product-price{
+
+            color: black;
+            font-size: 24px;
+            margin-right: auto;
+
+            font-family: MetropolisExtraBold, sans-serif;
+            margin-left: 20px;
+          }
+        }
+
+        .package-description-list{
+          width: 100%;
+
+          li{
+            width: 100%;
+            padding: 0.5em 0 ;
+
+            display: flex;
+            align-items: center;
+
+
+
+
+            p:first-child{
+              color: #a6a6a6 ;
+              width: 45%;
+            }
+            p{
+              color: #5d5d5d;
+              line-height: 1.5;
+              font-size: 12px;
+              font-family: MetropolisMedium, sans-serif;
+              display: inline-block;
+              width: 60%;
+            }
+          }
+        }
+
+        .package-btn-wrap{
+          display: flex;
+
+          justify-content: center;
+          margin-top: 1.2em;
+
+          .package-btn{
+
+            font-family: MetropolisSemiBold, sans-serif;
+
+            background-color: #f5f5f5;
+            color: #8e8e8e;
+
+            padding: 0.7em 2.5em;
+
+            margin: 0 10px;
+
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+
+
+            border-radius: 12px;
+
+
+          }
+
+          .package-buy-btn{
+            background-color: red;
+            color: white;
+          }
+        }
+
+      }
+
+    }
+
+  }
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@media screen  and (min-width: $layout-breakpoint-1024){
+
+
+  .packages-section{
+    padding: 6em 0 4.0em;
+
+    -webkit-clip-path: polygon(0% 7%, 50% 0%, 100% 4%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 7%, 50% 0%, 100% 4%, 100% 100%, 0% 100%);
+    margin-top: -40px;
+
+    .packages-footer{
+      margin-top: 3.2em;
+
+      .get-more-servers-link{
+
+        color: #0c4eb1;
+        font-size: 1em;
+        border-bottom-color: #0c4eb1;
+        
+        &:hover{
+
+          color: #083987;
+        }
+      }
+
+    }
+
+    .packages-section-title{
+      font-size: 30px;
+      font-family: MetropolisExtraBold, sans-serif;
+    }
+
+
+    .container{
+
+      max-width: 1190px;
+      margin: 0 auto;
+    }
+
+    .packages-nav{
+
+      justify-content: center;
+
+      margin-bottom: 3em;
+
+      .package-nav-link{
+        font-size: 14px;
+        margin: 0 30px;
+
+        &:hover{
+
+          color: #3367ad;
+        }
+        
+      }
+    }
+
+    .packages-wrap{
+
+
+
+
+      .package-row{
+          justify-content: center;
+
+
+        .package{
+
+          -webkit-transition: box-shadow 0.7s;
+          -moz-transition: box-shadow 0.7s;
+          -ms-transition: box-shadow 0.7s;
+          -o-transition: box-shadow 0.7s;
+          transition: box-shadow 0.7s;
+
+          &:hover{
+            box-shadow: 0 0 20px 0 darkgray;
+          }
+
+          border-radius: 12px;
+          margin: 0 1em;
+
+          padding: 2.3em;
+
+          width: 20%;
+
+          .package-title{
+            font-size: 18px;
+            font-family: MetropolisExtraBold, sans-serif;
+
+          }
+
+          .package-description-list{
+
+
+          }
+
+          .package-btn-wrap{
+
+            .package-btn{
+              padding: 0.7em 2.5em;
+
+              -webkit-transition: all 0.7s;
+              -moz-transition: all 0.7s;
+              -ms-transition: all 0.7s;
+              -o-transition: all 0.7s;
+              transition: all 0.7s;
+              
+              &:hover{
+                background-color: #dcd8d8;
+              }
+            }
+
+            .package-buy-btn{
+
+              &:hover{
+                background-color: #b00000;
+              }
+            }
+          }
+        }
+
+      }
+    }
+
+  }
+}
