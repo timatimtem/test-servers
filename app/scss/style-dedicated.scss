@@ -1,0 +1,165 @@
+@import "var";
+@import "reset";
+@import "fonts";
+
+@import "burger-menu";
+
+@import "nav";
+
+
+
+
+body{
+  background: #83a4d7;
+}
+
+
+header{
+
+  background: #1653b1; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #1653b1 0%, #2f79dd 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #1653b1 0%,#2f79dd 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #1653b1 0%,#2f79dd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1653b1', endColorstr='#2f79dd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+  .container{
+
+    padding: 80px 1.5em 160px;
+    text-align: center;
+    color: white;
+
+    .home-heading{
+
+      font-family: MetropolisExtraBold, sans-serif;
+      font-size: 40px;
+    }
+
+
+    .home-description{
+      font-family: MetropolisMedium, sans-serif;
+      font-size: 16px;
+      margin-top: 2em;
+    }
+  }
+
+}
+
+
+@media screen and (min-width: $layout-breakpoint-1024){
+
+  header{
+    -webkit-clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 86%);
+    clip-path: polygon(0% 0, 100% 0%, 100% 100%,50% 100%,  0 86%);
+
+
+    .container{
+
+      .home-heading{
+        font-size: 37px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+//----------------------------------------------------------------------------
+
+@import "packages";
+
+#packages-dedicated{
+  margin-top: 0;
+
+  padding: 0;
+
+  display: flex;
+
+  justify-content: center;
+
+
+  .container{
+    padding: 0 1.5em;
+
+    .packages-wrap{
+      margin-top: -110px;
+
+      .package-row{
+
+        .package{
+          width: 100%;
+          overflow: hidden;
+          z-index: 1000;
+
+          .package-popular{
+
+            visibility: hidden;
+            background: #26b999;
+            color: white;
+            padding: 6px 50px;
+
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+
+            font-family: MetropolisSemiBold, sans-serif;
+            font-size: 13px;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $layout-breakpoint-1024){
+
+  #packages-dedicated{
+    -webkit-clip-path: none;
+    clip-path: none;
+
+    .container{
+      padding: 20px 0;
+
+      .packages-wrap{
+        margin-top: 0em;
+        position: relative;
+        top: -100px;
+
+        .package-row{
+          justify-content: space-between;
+
+          .package{
+            width: 22%;
+            position: relative;
+
+            .package-popular{
+              visibility: visible;
+              position: absolute;
+              top: 27px;
+              right: -44px;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
+
+
+
+@import "personal-configuration";
+
+@import "benefits";
+
+
+@import "faq";
+
+
+@import "footer";

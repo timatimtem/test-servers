@@ -1,0 +1,78 @@
+@import "var";
+@import "reset";
+@import "fonts";
+
+@import "burger-menu";
+
+@import "nav";
+
+
+
+
+header{
+
+  background: #1653b1; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #1653b1 0%, #2f79dd 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #1653b1 0%,#2f79dd 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #1653b1 0%,#2f79dd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1653b1', endColorstr='#2f79dd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+  .container{
+
+    padding: 80px 1.5em 120px;
+    text-align: center;
+    color: white;
+
+    .home-heading{
+
+      font-family: MetropolisExtraBold, sans-serif;
+      font-size: 40px;
+    }
+
+
+    .home-description{
+      font-family: MetropolisMedium, sans-serif;
+      font-size: 16px;
+      margin-top: 2em;
+      line-height: 1.4;
+    }
+
+
+  }
+}
+
+
+@import "components/vps-server-item";
+
+
+@import "components/server-vps-picture";
+
+
+@media screen and (min-width: $layout-breakpoint-1024){
+
+  header{
+    -webkit-clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 86%);
+    clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 86%);
+
+    margin-bottom: -35px;
+
+    .container{
+      padding: 80px 1.5em 190px;
+
+      .home-heading{
+        font-size: 37px;
+      }
+    }
+  }
+}
+
+
+@import "products";
+
+@import "benefits";
+
+
+@import "faq";
+
+@import "footer";

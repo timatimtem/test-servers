@@ -1,0 +1,112 @@
+@import "../var";
+
+
+
+//------------
+
+
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+.select-selected {
+  background-color: white;
+
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+
+  color: #1f63ca;
+
+  font-family: MetropolisBold, sans-serif;
+
+
+}
+.select-selected:before, .select-selected:after {
+  content: '';
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  width: 0;
+  height: 0;
+  border: 5px dashed;
+  border-color: #acc5eb transparent;
+  pointer-events: none;
+}
+
+.select-selected:before {
+  border-bottom-style: solid;
+  border-top: none;
+}
+
+.select-selected:after {
+  margin-top: 9px;
+  border-top-style: solid;
+  border-bottom: none;
+}
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  padding: 15px 23px;
+
+  cursor: pointer;
+  user-select: none;
+
+  font-size: 13px;
+}
+
+.select-items div{
+  color: #fff;
+
+  &:first-child{
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+  }
+
+  &:last-child{
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+  }
+
+  
+  &:hover{
+
+    background: #2b6fd7;
+    color: #eee;
+  }
+}
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #1f63cb;
+  top: -100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+
+
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  border-radius: 23px;
+
+  font-family: MetropolisRegular, sans-serif;
+
+}
+
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+.select-arrow-active:before,
+.select-arrow-active:after{
+  z-index: 10000;
+  border-color: #fff transparent;
+}
+
+.same-as-selected{
+  font-family: MetropolisBold, sans-serif;
+}

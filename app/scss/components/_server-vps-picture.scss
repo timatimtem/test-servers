@@ -1,0 +1,50 @@
+@import "../var";
+
+
+.servers-img{
+
+  top: 411px;
+  z-index: 10000000;
+  left: 28%;
+  position: absolute;
+}
+
+
+@media screen  and (min-width: 374px){
+
+  .servers-img{
+    top: 362px;
+    left: 29%;
+  }
+
+}
+
+
+@media screen  and (min-width: 424px){
+
+  .servers-img{
+    top: 362px;
+    left: 35%;
+  }
+
+}
+
+@media screen  and (min-width: 767px){
+
+  .servers-img{
+    top: 362px;
+    left: 41%;
+  }
+
+}
+
+
+@media screen and (min-width: $layout-breakpoint-1024){
+
+
+
+  .servers-img{
+    top: 387px;
+    left: 45%;
+  }
+}

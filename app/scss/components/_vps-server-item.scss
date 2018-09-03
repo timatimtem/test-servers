@@ -1,0 +1,355 @@
+@import "../var";
+
+
+
+
+
+.servers-packages-section{
+
+  background: #fff;
+  padding: 7em 0;
+
+
+
+  .container{
+    padding: 0 1.5em;
+
+
+    .vps-package{
+
+      margin-bottom: 3.5em;
+
+      &-title{
+
+        font-family: MetropolisBold, sans-serif;
+        font-size: 24px;
+
+        color: #1755b2;
+        margin-bottom: 1em;
+
+      }
+
+
+      .vps-server-item{
+
+        margin-bottom: 1.5em;
+
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+
+        -webkit-box-shadow: 0em 0em 8px 0em darkgray;
+        -moz-box-shadow: 0em 0em 8px 0em darkgray;
+        box-shadow: 0em 0em 8px 0em darkgray;
+
+
+        &-title{
+          font-family: MetropolisBold, sans-serif;
+          font-size: 1.5em;
+          color: #505050;
+          margin-bottom: 1em;
+        }
+
+        &-price{
+
+          font-size: 19px;
+          color: #353535;
+          font-family: MetropolisSemiBold, sans-serif;
+          margin-bottom: 1em;
+
+          .price-inner{
+            margin-left: 10px;
+            font-family: MetropolisExtraBold, sans-serif;
+            font-size: 24px;
+
+          }
+        }
+
+
+        &-characteristics{
+
+          display: flex;
+
+
+          .tt-table-left{
+            width: 54%;
+
+
+            h5{
+              line-height: 1.4;
+              color: #a6a6a6;
+              font-family: MetropolisMedium, sans-serif;
+              font-size: 14px;
+              margin-top: 10px;
+              height: 30px;
+            }
+
+
+          }
+
+          .tt-table-right{
+
+            @import "dedicated-inputs";
+
+            .select-selected:before, .select-selected:after{
+              display: none;
+            }
+
+
+            p{
+              font-family: MetropolisSemiBold, sans-serif;
+              margin-top: 9px;
+              line-height: 1.4;
+              font-size: 14px;
+              color: #5d5d5d;
+              display: block;
+              height: 30px;
+
+            }
+          }
+        }
+
+        .vps-server-more-btn{
+
+          button{
+            text-align: center;
+
+            height: 4em;
+            display: block;
+            margin-top: 21px;
+            background: #f5f8fc;
+            border: none;
+            border-bottom-right-radius: 10px;
+            width: 100%;
+            font-family: MetropolisMedium, sans-serif;
+            border-bottom-left-radius: 10px;
+            color: #2064cb;
+          }
+
+          .panel-body{
+            background: #f5f8fc;
+
+            padding-top: 0;
+          }
+
+          .panel-body.active{
+
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+
+          }
+
+          .padding-box{
+            padding-top: 0;
+          }
+
+          .package-btn-wrap{
+            display: flex;
+            justify-content: center;
+            margin-top: 1.2em;
+
+
+            .package-btn{
+
+              font-family: MetropolisSemiBold, sans-serif;
+              background-color: #f5f5f5;
+              color: #8e8e8e;
+              padding: 0.7em 2.5em;
+              margin: 0 10px;
+              font-size: 14px;
+              display: flex;
+              align-items: center;
+              border-radius: 12px;
+
+            }
+
+            .package-buy-btn{
+              background-color: red;
+              color: white;
+
+              &:hover{
+                background: #a80000;
+              }
+            }
+
+          }
+        }
+
+
+      }
+    }
+
+
+    .padding-box{
+      padding: 1.5em 1.5em 0;
+    }
+  }
+
+}
+
+
+.desktop-view{
+  display: none !important;
+}
+
+
+
+@media screen and (min-width: $layout-breakpoint-1024){
+
+  .desktop-view{
+    display: block !important;
+  }
+
+  .servers-packages-section{
+    -wekit-clip-path: polygon(0% 50px, 50% 0%, 100% 35px, 100% 0%, 100% 95%, 50% 100%, 0% 100%);
+    clip-path: polygon(0% 50px, 50% 0%, 100% 35px, 100% 0%, 100% 95%, 50% 100%, 0% 100%);
+
+
+    .container{
+      max-width: 1190px;
+      margin: 0 auto;
+
+      .vps-package{
+
+
+        .vps-server-item{
+
+
+
+          border: 1px solid #d5e0f1;
+          -webkit-box-shadow: none;
+          -moz-box-shadow: none;
+          box-shadow: none;
+
+          & > .padding-box{
+            cursor: pointer;
+          }
+
+          .padding-box{
+            padding: 10px;
+          }
+
+
+          &-title{
+            display: none;
+
+          }
+
+
+          &-price{
+            display: none;
+          }
+
+          &-characteristics{
+
+
+            .tt-table-left{
+              display: none;
+            }
+
+            .tt-table-right{
+              width: 100%;
+
+              & > div{
+                display: flex;
+                justify-content: space-around;
+
+                p.price{
+                  color: #1355ba;
+                }
+
+                p.more-toggle{
+                  &:after{
+                    content: '▼';
+                    font-size: 0.8em;
+                    margin-left: 0.7em;
+                  }
+                }
+              }
+
+            }
+          }
+
+          .vps-server-more-btn{
+            button{
+              display: none !important;
+            }
+
+
+            .panel-body{
+              -webkit-border-radius: 10px;
+              -moz-border-radius: 10px;
+              border-radius: 10px;
+            }
+            .panel-body.active{
+              padding: 0;
+
+              overflow: visible;
+            }
+
+            .padding-box{
+
+              padding: 10px !important;
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+
+              .vps-server-item-characteristics{
+                width: 70%;
+
+
+                .tt-table-right{
+
+                  justify-content: space-evenly;
+
+                  .select-selected{
+                    width: 108px;
+                  }
+
+                  .select-selected:before, .select-selected:after{
+                    display: block !important;
+
+                    top: 15px;
+                  }
+
+
+                  p{
+
+                    color: #1755b2;
+                    span{
+
+                      color: #7c7c7c;
+                      display: inline-block !important;
+                      margin-right: 10px;
+                      font-size: 12px;
+                    }
+                  }
+
+                  p.price{
+                    MARGIN-TOP: 3px;
+                    FONT-SIZE: 24PX;
+                    margin-right: 38px;
+                    FONT-FAMILY: MetropolisExtraBold, sans-serif;
+                  }
+
+
+                }
+              }
+
+              .package-btn-wrap{
+                margin-top: 0;
+              }
+            }
+
+
+          }
+        }
+      }
+    }
+
+
+  }
+
+
+
+}

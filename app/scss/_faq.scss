@@ -1,0 +1,167 @@
+@import "var";
+
+
+
+
+
+.faq-section{
+  padding: 3em 0;
+
+  background: white;
+
+  .section-header{
+    text-align: center;
+    font-size: 27px;
+    font-family: MetropolisExtraBold, sans-serif;
+  }
+
+
+  .section-description{
+
+    text-align: center;
+    margin-top: 2em;
+    color: #858585;
+    font-family: MetropolisSemiBold, sans-serif;
+
+  }
+
+  .container{
+    padding: 0 1.5em;
+    margin-top: 1em;
+
+
+    .faq-item{
+      margin: 1em 0;
+    }
+
+  }
+}
+
+
+
+
+.accordion {
+  background-color: #1c5dc1;
+  color:white;
+  cursor: pointer;
+  padding: 15px 1.5em;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  font-family: MetropolisBold, sans-serif;
+
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+
+  &:hover{
+    background: #1a4d9a;
+  }
+
+  .panel-title{
+    position: relative;
+    width: 85%;
+
+    &:after{
+
+      content: "+";
+      border-radius: 50%;
+      width: 16px;
+      height: 16px;
+      padding: 4px;
+      background: #ffffff;
+      position: absolute;
+      color: #1b5dc1;
+      text-align: center;
+      right: -44px;
+      top: 3px;
+      font: 16px MetropolisExtraBold, sans-serif;
+      font-weight: bold;
+    }
+
+  }
+
+}
+
+.panel-body {
+  color: #1958ba;
+  font-size: 13px;
+
+  font-family: MetropolisMedium, sans-serif;
+  padding: 0 1.5em;
+  background-color: #cedaec;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.2s ease-out;
+
+  border-radius: 6px;
+
+}
+
+.accordion.active{
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.panel-body.active{
+  max-height: min-content;
+  padding: 1.5em;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+@media screen  and (min-width: $layout-breakpoint-1024){
+
+  .faq-section{
+    margin-top: -38px;
+    clip-path: polygon(0% 75px,50% 0%, 100% 38px , 100% 100%, 0% 100%);
+    padding: 6em 0;
+
+    .container{
+
+      max-width: 900px;
+      margin: 0 auto;
+
+      padding: 2EM 0;
+
+      .faq-item{
+
+        .accordion{
+          padding: 20px 40px;
+
+          font-size: 16px;
+
+          .panel-title{
+
+            width: 100%;
+
+            &:after{
+              width: 20px;
+              height: 20px;
+              padding: 5px;
+
+              right: 0;
+              top: -6px;
+              font: 22px MetropolisExtraBold, sans-serif;
+
+
+
+            }
+          }
+        }
+        .panel-body{
+          font-size: 15px;
+          padding: 0 40px;
+          line-height: 1.4;
+        }
+
+        .panel-body.active{
+          padding: 40px;
+        }
+      }
+    }
+  }
+}

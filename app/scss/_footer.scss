@@ -64,8 +64,7 @@ footer{
 
 
       li{
-        margin-right: 15px;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
         width: 60px;
         height: 55px;
 
@@ -145,11 +144,17 @@ footer{
         }
       }
 
-      .footer-nav-img-wrap li{
 
 
-        .footer-nav-img{
+      .footer-nav-img-wrap {
+
+
+        li{
+
+          margin-right: 15px;
+
         }
+
       }
     }
 

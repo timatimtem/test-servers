@@ -27,6 +27,9 @@
     font-size: 1.3em;
     font-family: MetropolisBold, sans-serif;
     margin-bottom: 1.5em;
+
+    padding-top: 50px;
+    margin-top: -50px;
   }
   
 
@@ -162,6 +165,8 @@
             p:first-child{
               color: #a6a6a6 ;
               width: 45%;
+
+              font-family: MetropolisRegular, sans-serif;
             }
             p{
               color: #5d5d5d;
