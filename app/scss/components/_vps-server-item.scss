@@ -192,6 +192,23 @@
   display: none !important;
 }
 
+.price-table-title-container{
+  display: grid;
+
+  grid-template-columns: repeat(7, 1fr);
+
+  text-align: center;
+  padding: 10px;
+
+  h5{
+
+    font-family: MetropolisBold, sans-serif;
+    font-size: 12px;
+    padding: 15px;
+    color: #878787;
+  }
+}
+
 
 
 @media screen and (min-width: $layout-breakpoint-1024){
@@ -235,7 +252,6 @@
 
           }
 
-
           &-price{
             display: none;
           }
@@ -253,6 +269,7 @@
               & > div{
                 display: flex;
                 justify-content: space-around;
+                align-items: center;
 
                 p.price{
                   color: #1355ba;
@@ -328,7 +345,7 @@
                   p.price{
                     MARGIN-TOP: 3px;
                     FONT-SIZE: 24PX;
-                    margin-right: 38px;
+                    margin-right: 67px;
                     FONT-FAMILY: MetropolisExtraBold, sans-serif;
                   }
 

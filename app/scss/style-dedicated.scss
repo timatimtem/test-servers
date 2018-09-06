@@ -10,7 +10,7 @@
 
 
 body{
-  background: #83a4d7;
+  background: #a6c6f6;
 }
 
 
@@ -93,6 +93,8 @@ header{
           width: 100%;
           overflow: hidden;
           z-index: 1000;
+
+          box-shadow: 0 0 27px rgba(45,45,45,0.13);
 
           .package-popular{
 

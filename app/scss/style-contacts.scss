@@ -1,0 +1,74 @@
+@import "var";
+@import "reset";
+@import "fonts";
+
+@import "burger-menu";
+
+@import "nav";
+
+
+
+
+header{
+  clip-path: none;
+
+  background: #1653b1; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #1653b1 0%, #2f79dd 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #1653b1 0%,#2f79dd 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #1653b1 0%,#2f79dd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1653b1', endColorstr='#2f79dd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+
+  .container{
+
+    padding: 80px 1.5em 160px;
+    text-align: center;
+    color: white;
+
+    .home-heading{
+
+      font-family: MetropolisExtraBold, sans-serif;
+      font-size: 40px;
+    }
+
+
+    .home-description{
+      font-family: MetropolisMedium, sans-serif;
+      font-size: 16px;
+
+      margin-top: 2em;
+    }
+  }
+};
+
+
+@import "sections/contact-form";
+
+@media screen and (min-width: $layout-breakpoint-1024){
+
+
+  header{
+    clip-path: none;
+
+
+
+    .container{
+
+      max-width: 1190px ;
+      margin: 0 auto;
+
+
+      .home-description{
+
+
+        width: 44%;
+        margin: 3em auto;
+        line-height: 1.7;
+      }
+    }
+  }
+}
+
+
+@import "footer";

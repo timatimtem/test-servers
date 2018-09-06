@@ -153,11 +153,12 @@ header.nav-active-bg{
   #map-header-svg{
     display: block !important;
     position: absolute;
+    z-index: -1;
 
-  z-index: -1;
-    width: 75%;
-    right: 0;
-    top: -175px;
+    width: 95%;
+    right: -104px;
+    top: -1822px;
+
   }
 
 
@@ -167,8 +168,9 @@ header.nav-active-bg{
   }
 
 
-
   header {
+
+    overflow: hidden;
 
 
     -webkit-clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 91%);
@@ -317,6 +319,13 @@ header.nav-active-bg{
 
 
 @import "products";
+@media screen and (min-width: $layout-breakpoint-1024){
+
+  .product-section{
+    margin-top: -30px;
+  }
+
+}
 
 @import "benefits";
 

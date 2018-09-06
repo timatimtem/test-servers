@@ -3,7 +3,7 @@
 
 
 .personal-configuration-section{
-  background: #cfdbef;
+  background: #d8e0ee;
 
 
   margin-top: -108px;
@@ -47,8 +47,8 @@
       .left-info{
         font-family: MetropolisRegular, sans-serif;
         padding: 1.5em 0;
-        color: #787878;
-        line-height: 1.4;
+        color: #8f8f8f;
+        line-height: 18px;
         display: block;
         width: 80%;
         margin: 0 0  0 45px ;
@@ -195,6 +195,9 @@
 
           .package-btn{
 
+            cursor: pointer;
+
+            outline: none;
             font-family: MetropolisSemiBold, sans-serif;
 
             background-color: #f5f5f5;
@@ -212,6 +215,7 @@
             border-radius: 12px;
 
 
+            border: none;
           }
 
           .package-buy-btn{
@@ -296,13 +300,16 @@
             padding-left: 22px;
           }
 
+          .ssd-anchor, .ram-anchor{
+            word-spacing: 7px;
+          }
+
           .dropdown{
             height: 45px;
 
             -webkit-border-radius: 23px;
             -moz-border-radius: 23px;
             border-radius: 23px;
-
 
             &::before{
               top: 16px;
@@ -336,7 +343,6 @@
         width: 34%;
 
         .package{
-
           -webkit-transition: box-shadow 0.7s;
           -moz-transition: box-shadow 0.7s;
           -ms-transition: box-shadow 0.7s;
@@ -350,9 +356,7 @@
           border-radius: 12px;
           margin: 0 1em;
 
-          padding: 2.3em;
-
-          padding-right: 10px;
+          padding: 2.3em 30px 2.3em 28px;
 
           .package-title{
             font-size: 18px;
@@ -368,6 +372,7 @@
           .package-btn-wrap{
 
             .package-btn{
+              margin-right: 20px;
               padding: 0.7em 2.5em;
 
               -webkit-transition: all 0.7s;
