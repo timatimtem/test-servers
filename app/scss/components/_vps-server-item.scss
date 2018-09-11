@@ -97,7 +97,7 @@
 
 
             p{
-              font-family: MetropolisSemiBold, sans-serif;
+              font-family: MetropolisMedium, sans-serif;
               margin-top: 9px;
               line-height: 1.4;
               font-size: 14px;
@@ -228,10 +228,14 @@
 
       .vps-package{
 
+        margin-bottom: 2em;
+        .vps-package-title{
+          font-size: 13px;
+        }
+
 
         .vps-server-item{
-
-
+          margin-bottom: 1em;
 
           border: 1px solid #d5e0f1;
           -webkit-box-shadow: none;

@@ -98,8 +98,7 @@ footer{
       }
 
       .twitter{
-        background-position: -68px 0;
-
+        background-position: -69px 2px;
       }
 
     }
@@ -107,8 +106,6 @@ footer{
 
   }
 }
-
-
 
 @media screen and (min-width: $layout-breakpoint-1024){
 
@@ -150,6 +147,9 @@ footer{
 
 
         li{
+          .twitter{
+            background-position: -64px 0;
+          }
 
           margin-right: 15px;
 

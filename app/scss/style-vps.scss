@@ -7,8 +7,6 @@
 @import "nav";
 
 
-
-
 header{
 
   background: #1653b1; /* Old browsers */
@@ -71,6 +69,13 @@ header{
 @import "products";
 
 @import "benefits";
+
+@media screen and (min-width: $layout-breakpoint-1024){
+
+  .benefit-section .container .benefits-wrap .benefits-item{
+    width: 32%;
+  }
+}
 
 
 @import "faq";

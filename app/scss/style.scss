@@ -122,16 +122,16 @@ header.nav-active-bg{
 }
 
 
-
 @import "home-locations";
 
 @import "burger-menu";
 
 
-
 #map-header-svg{
   display: none;
 }
+
+
 
 @media screen and (min-width: $layout-breakpoint-1024) {
 
@@ -155,12 +155,11 @@ header.nav-active-bg{
     position: absolute;
     z-index: -1;
 
-    width: 95%;
-    right: -104px;
-    top: -1822px;
+    width: 100%;
+    right: -165px;
+    top: -1888px;
 
   }
-
 
   circle {
     fill: white;
@@ -317,7 +316,15 @@ header.nav-active-bg{
 
 }
 
+@media screen and (min-width: 2000px){
+  #map-header-svg{
+    display: none;
 
+    width: 75%;
+    right: 145px;
+    top: -1948px;
+  }
+}
 @import "products";
 @media screen and (min-width: $layout-breakpoint-1024){
 

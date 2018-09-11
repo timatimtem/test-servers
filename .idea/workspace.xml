@@ -2,24 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ba45699-eedf-4d21-a076-1c4cb5fa7c05" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/scss/sections/_contact-form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/style-vps-features.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/features/Configuration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/features/Support.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/features/activation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/features/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/features/uptime.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/features/vpsHome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/vps/Configuration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/vps/Support.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/vps/benefits-vps-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/vps/benefits-vps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/vps/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/vps/map.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/style-dedicated-features.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psd/vps features (9.09).psd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/blazing-servers/page-vps.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/vps.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style-contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style-contacts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style-dedicated.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style-dedicated.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/style-vps-features.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style-vps-features.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style-vps.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style-vps.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/_faq.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_faq.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_packages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_packages.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/_personal-configuration.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_personal-configuration.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_reset.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/components/_vps-server-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_vps-server-item.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/style-contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/style-contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/style-dedicated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/style-dedicated.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/sections/_contact-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_contact-form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/style-vps-features.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/style-vps-features.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/style-vps.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/style-vps.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,48 +56,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_vps-server-item.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scss/components/_vps-server-item.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-contacts.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/page-contacts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="185" selection-start-line="185" selection-end-line="185" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/index.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="129" column="16" lean-forward="true" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style-vps-features.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style-vps-features.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scss/style-vps-features.scss">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="133" column="26" lean-forward="true" selection-start-line="133" selection-end-line="134" />
+              <folding>
+                <marker date="1536659068976" expanded="true" signature="11432:12083" ph="..." />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="mail.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/mail.php">
+      <file leaf-file-name="style-dedicated-features.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scss/style-dedicated-features.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="1743">
+              <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+              <folding>
+                <element signature="e#16694#21910#0" />
+                <element signature="e#19824#20304#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,31 +84,67 @@
       <file leaf-file-name="_contact-form.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scss/sections/_contact-form.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="190" column="3" selection-start-line="190" selection-start-column="3" selection-end-line="190" selection-end-column="3" />
+            <state relative-caret-position="354">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="front-page.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/front-page.php">
+      <file leaf-file-name="page-contact.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/page-contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="684" column="65" selection-start-line="684" selection-start-column="65" selection-end-line="684" selection-end-column="65" />
+            <state relative-caret-position="-1492" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style-dedicated-features.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/css/style-dedicated-features.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1215">
+              <caret line="177" column="28" lean-forward="true" selection-start-line="177" selection-start-column="28" selection-end-line="177" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-dedicated-features.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/page-dedicated-features.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="562">
+              <caret line="156" column="26" selection-start-line="156" selection-start-column="26" selection-end-line="156" selection-end-column="26" />
               <folding>
-                <element signature="e#29#132489#0#HTML" />
-                <element signature="e#132495#134099#0#HTML" />
-                <element signature="e#134113#136927#0#HTML" />
+                <element signature="e#2831#3194#0#HTML" />
+                <element signature="e#4012#4064#0#HTML" expanded="true" />
+                <element signature="e#4331#47168#0#HTML" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_personal-configuration.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scss/_personal-configuration.scss">
+      <file leaf-file-name="page-dedicated.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/page-dedicated.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4485">
-              <caret line="299" column="31" selection-start-line="299" selection-start-column="31" selection-end-line="299" selection-end-column="31" />
+            <state relative-caret-position="-7695" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-vps-features.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/page-vps-features.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1102">
+              <caret line="375" column="33" selection-start-line="375" selection-start-column="33" selection-end-line="375" selection-end-column="33" />
+              <folding>
+                <element signature="e#2782#2834#0#HTML" expanded="true" />
+                <element signature="e#3946#3998#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,18 +180,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/style.css" />
-        <option value="$PROJECT_DIR$/app/scss/_var.scss" />
-        <option value="$PROJECT_DIR$/app/scss/_home-locations.scss" />
-        <option value="$PROJECT_DIR$/app/scss/_products.scss" />
-        <option value="$PROJECT_DIR$/app/scss/_benefits.scss" />
-        <option value="$PROJECT_DIR$/app/img/map-tymur.svg" />
-        <option value="$PROJECT_DIR$/app/scss/_burger-menu.scss" />
-        <option value="$PROJECT_DIR$/app/header.php" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/vps.php" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/header.php" />
-        <option value="$PROJECT_DIR$/app/scss/_footer.scss" />
-        <option value="$PROJECT_DIR$/app/scss/_packages.scss" />
         <option value="$PROJECT_DIR$/app/css/style-vps.css" />
         <option value="$PROJECT_DIR$/app/scss/components/_dedicated-inputs.scss" />
         <option value="$PROJECT_DIR$/app/js/home.js" />
@@ -172,38 +189,48 @@
         <option value="$PROJECT_DIR$/app/scss/_nav.scss" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/js/home.js" />
         <option value="$PROJECT_DIR$/app/scss/components/_server-vps-picture.scss" />
-        <option value="$PROJECT_DIR$/app/scss/style-vps.scss" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/vps/wp-content/themes/blazing-servers/js/home.js" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/vps/wp-content/themes/blazing-servers/footer.php" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/vps/wp-content/themes/blazing-servers/js/dedicated.js" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/vps/wp-content/themes/blazing-servers/front-page.php" />
-        <option value="$PROJECT_DIR$/app/scss/_faq.scss" />
         <option value="$PROJECT_DIR$/app/scss/style-contacts.scss" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/vps/wp-content/themes/blazing-servers/page-vps.php" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/vps/wp-content/themes/blazing-servers/page-contacts.php" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/vps/wp-content/themes/blazing-servers/functions.php" />
         <option value="$PROJECT_DIR$/app/scss/style-dedicated.scss" />
-        <option value="$PROJECT_DIR$/app/scss/components/_vps-server-item.scss" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/page.php" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/var/www/sites/blazingseollc.com/servers/wp-content/themes/blazing-servers/page-dedicated.php" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/var/www/sites/blazingseollc.com/servers/wp-content/themes/blazing-servers/footer.php" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/var/www/sites/blazingseollc.com/servers/wp-content/themes/blazing-servers/page.php" />
         <option value="$PROJECT_DIR$/app/js/vps.js" />
-        <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/functions.php" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/js/vps.js" />
-        <option value="$PROJECT_DIR$/app/scss/style.scss" />
         <option value="$PROJECT_DIR$/app/scss/_reset.scss" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/css/style-vps.css" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/page-dedicated.php" />
-        <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/page-vps.php" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/js/dedicated.js" />
-        <option value="$PROJECT_DIR$/app/scss/_personal-configuration.scss" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/mail.php" />
-        <option value="$PROJECT_DIR$/app/scss/sections/_contact-form.scss" />
-        <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/front-page.php" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/page-contacts.php" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/scss/components/_vps-server-item.scss" />
+        <option value="$PROJECT_DIR$/app/scss/style-vps.scss" />
+        <option value="$PROJECT_DIR$/app/scss/_faq.scss" />
+        <option value="$PROJECT_DIR$/app/scss/_packages.scss" />
+        <option value="$PROJECT_DIR$/app/scss/_personal-configuration.scss" />
+        <option value="$PROJECT_DIR$/app/scss/style.scss" />
+        <option value="$PROJECT_DIR$/app/scss/_footer.scss" />
+        <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/img/vps/map.svg" />
+        <option value="$PROJECT_DIR$/app/img/vps/map.svg" />
+        <option value="$PROJECT_DIR$/app/scss/style-vps-dedicated.scss" />
+        <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/functions.php" />
+        <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/page-vps.php" />
+        <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/front-page.php" />
+        <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/page-dedicated.php" />
+        <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/css/style-vps-features.scss" />
+        <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/page-dedicated-features.php" />
+        <option value="$PROJECT_DIR$/app/scss/sections/_contact-form.scss" />
         <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/footer.php" />
+        <option value="&lt;fa8bab7e-120d-4915-9679-dfd48e5cd6e0&gt;/home/tt.se/webroot/servers/wp-content/themes/blazing-servers/page-vps-features.php" />
+        <option value="$PROJECT_DIR$/app/scss/style-vps-features.scss" />
+        <option value="$PROJECT_DIR$/app/scss/style-dedicated-features.scss" />
       </list>
     </option>
   </component>
@@ -223,9 +250,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="300" />
-    <option name="y" value="-4" />
-    <option name="width" value="1242" />
-    <option name="height" value="1018" />
+    <option name="y" value="24" />
+    <option name="width" value="1240" />
+    <option name="height" value="982" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -249,12 +276,25 @@
               <item name="neil-servers" type="b2602c69:ProjectViewProjectNode" />
               <item name="neil-servers" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neil-servers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neil-servers" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="neil-servers" type="b2602c69:ProjectViewProjectNode" />
               <item name="neil-servers" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="sections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neil-servers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neil-servers" type="462c0819:PsiDirectoryNode" />
+              <item name="psd" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,10 +318,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/psd" />
+      <recent name="$PROJECT_DIR$/app/img/vps" />
       <recent name="$PROJECT_DIR$/app/scss/components" />
       <recent name="$PROJECT_DIR$/app/img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/img/features" />
+      <recent name="$PROJECT_DIR$/app/img/vps" />
       <recent name="$PROJECT_DIR$/app/img" />
     </key>
   </component>
@@ -337,15 +381,22 @@
       <workItem from="1536139471081" duration="3830000" />
       <workItem from="1536143668471" duration="19015000" />
       <workItem from="1536170517352" duration="7936000" />
-      <workItem from="1536224411048" duration="8523000" />
+      <workItem from="1536224411048" duration="10139000" />
+      <workItem from="1536244463931" duration="3374000" />
+      <workItem from="1536309537065" duration="22767000" />
+      <workItem from="1536407039423" duration="15317000" />
+      <workItem from="1536577051748" duration="288000" />
+      <workItem from="1536591633562" duration="4760000" />
+      <workItem from="1536645528409" duration="13838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="307550000" />
+    <option name="totallyTimeSpent" value="369510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1617" height="1062" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32936078" />
@@ -353,9 +404,9 @@
       <window_info anchor="bottom" id="File Transfer" order="11" weight="0.32827735" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32827735" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22968581" />
-      <window_info anchor="right" id="Remote Host" order="3" sideWeight="0.53727144" visible="true" weight="0.3212237" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.46272856" visible="true" weight="0.26131293" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22968581" />
+      <window_info anchor="right" id="Remote Host" order="3" sideWeight="0.53727144" visible="true" weight="0.26641172" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.46272856" visible="true" weight="0.2842575" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32012385" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -373,23 +424,23 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="right" id="Remote Host" order="3" sideWeight="0.53727144" visible="true" weight="0.3212237" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.46272856" visible="true" weight="0.2555768" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" sideWeight="0.53727144" visible="true" weight="0.26577437" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.46272856" visible="true" weight="0.27278522" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32827735" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="4" weight="0.32012385" />
       <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22968581" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="File Transfer" order="11" weight="0.32875264" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32827735" />
+      <window_info anchor="bottom" id="File Transfer" order="11" weight="0.32827735" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -405,48 +456,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scss/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/_benefits.scs" />
     <entry file="file://$PROJECT_DIR$/app/img/logoblue.png">
       <provider selected="true" editor-type-id="images" />
@@ -503,20 +512,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/img/map-tymur.svg" />
-    <entry file="file://$PROJECT_DIR$/app/scss/_packages.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4470">
-          <caret line="298" column="5" selection-start-line="298" selection-start-column="5" selection-end-line="352" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="151" column="8" selection-start-line="151" selection-start-column="8" selection-end-line="151" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12735">
@@ -578,41 +573,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/_faq.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="119" column="28" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/style-contacts.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/style-dedicated.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="96" column="51" selection-start-line="96" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/style-contacts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/vps.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
           <caret line="278" column="2" selection-start-line="278" selection-start-column="2" selection-end-line="278" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3105">
-          <caret line="616" column="26" lean-forward="true" selection-start-line="616" selection-start-column="26" selection-end-line="616" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -630,13 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="324" column="22" selection-start-line="324" selection-start-column="22" selection-end-line="324" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/_reset.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -644,46 +601,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/app/img/arrow-down.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/style-contacts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        <state relative-caret-position="145">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/style-vps.scss">
+    <entry file="file://$PROJECT_DIR$/app/scss/style-dedicated.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="450">
+          <caret line="96" column="51" selection-start-line="96" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/vps/benefits-vps.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/components/_vps-server-item.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+        <state relative-caret-position="90">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_faq.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="132" column="21" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_packages.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2865">
+          <caret line="315" column="19" selection-start-line="315" selection-start-column="19" selection-end-line="315" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/_personal-configuration.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4485">
-          <caret line="299" column="31" selection-start-line="299" selection-start-column="31" selection-end-line="299" selection-end-column="31" />
+        <state relative-caret-position="15">
+          <caret line="142" column="24" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="24" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="324" column="17" selection-start-line="324" selection-start-column="17" selection-end-line="324" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="151" column="11" selection-start-line="151" selection-start-column="11" selection-end-line="151" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/vps/map.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/style-vps.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/features/uptime.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/features/activation.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/style-contacts.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="616" column="26" lean-forward="true" selection-start-line="616" selection-start-column="26" selection-end-line="616" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/style-vps-features.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/sections/_contact-form.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="190" column="3" selection-start-line="190" selection-start-column="3" selection-end-line="190" selection-end-column="3" />
+        <state relative-caret-position="354">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/arrow-down.svg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/app/css/style-dedicated-features.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1215">
+          <caret line="177" column="28" lean-forward="true" selection-start-line="177" selection-start-column="28" selection-end-line="177" selection-end-column="28" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/style-vps-features.scss">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="133" column="26" lean-forward="true" selection-start-line="133" selection-end-line="134" />
+          <folding>
+            <marker date="1536659068976" expanded="true" signature="11432:12083" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/style-dedicated-features.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1743">
+          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="e#16694#21910#0" />
+            <element signature="e#19824#20304#0" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -116,7 +116,7 @@
           font-family: MetropolisExtraBold, sans-serif;
         }
 
-        label,
+
         label:hover {
           color: #a80000;
         }
@@ -209,13 +209,18 @@
 
 
           input{
-            width: 300px;
-            margin-top: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            width: 353px;            margin-top: 0;
 
           }
 
           textarea{
-            width: 300px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            width: 353px;
             height: 100px;
           }
 
@@ -224,7 +229,6 @@
           }
 
         }
-
 
         .ml-42{
           margin-left: 47%;
