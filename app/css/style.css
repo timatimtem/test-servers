@@ -97,7 +97,7 @@ a {
   transition: all 0.5s; }
   .top-navigation .logo-link {
     display: inline-block;
-    background: url("../img/logo-servers.png") no-repeat;
+    background: url("../img/logo@2x.png") no-repeat;
     background-size: contain;
     width: 80px;
     height: 65px;
@@ -179,8 +179,8 @@ a {
     top: 0; }
     .top-navigation .logo-link {
       margin: 0;
-      width: 100px;
-      height: 80px;
+      width: 85px;
+      height: 77px;
       -webkit-box-flex: 20%;
       -ms-flex: 20%;
       flex: 20%; }
@@ -262,9 +262,177 @@ a {
             transform: scale(1.05); }
           .top-navigation .nav-menu .sub-menu li a {
             padding: 1em;
+            font-size: 12px;
             color: #1a5285; }
   .nav-join-us-btn {
     margin-right: 14px !important; } }
+
+::-webkit-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #276fcf;
+  opacity: 1;
+  /* Firefox */ }
+
+:-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #276fcf;
+  opacity: 1;
+  /* Firefox */ }
+
+::-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #276fcf;
+  opacity: 1;
+  /* Firefox */ }
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #276fcf;
+  opacity: 1;
+  /* Firefox */ }
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #276fcf; }
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #276fcf; }
+
+.modal-wrap {
+  /* Full-width input fields */
+  /* Set a style for all buttons */
+  /* Extra styles for the cancel button */
+  /* The Modal (background) */
+  /* Modal Content/Box */
+  /* The Close Button (x) */
+  /* Add Zoom Animation */
+  /* Change styles for span and cancel button on extra small screens */ }
+  .modal-wrap h4 {
+    font-family: MetropolisBold,sans-serif;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px; }
+  .modal-wrap label {
+    display: block;
+    color: #5c5c5c;
+    font-size: 12px;
+    font-family: MetropolisMedium, sans-serif;
+    padding: 10px 20px; }
+  .modal-wrap input[type=text], .modal-wrap input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 1em;
+    display: inline-block;
+    border: 1px solid #daf3ff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 50px;
+    color: #0a4193;
+    background: #e9f0f9;
+    border-radius: 12px;
+    font-family: MetropolisMedium, sans-serif;
+    outline: none; }
+  .modal-wrap a.forgot {
+    display: block;
+    text-align: right;
+    position: relative;
+    right: 15px;
+    font-size: 11px;
+    margin-bottom: 2em;
+    font-family: MetropolisMedium, sans-serif;
+    color: #276fcf; }
+  .modal-wrap button {
+    display: block;
+    background-color: #276fcf;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 190px;
+    height: 35px;
+    margin: 0 auto 17px;
+    font-family: MetropolisBold, sans-serif;
+    border-radius: 10px; }
+  .modal-wrap .secondary {
+    background: transparent;
+    color: #276fcf;
+    text-decoration: underline;
+    margin-bottom: 0;
+    display: block;
+    text-align: center;
+    font-size: 12px; }
+  .modal-wrap button:hover {
+    opacity: 0.8; }
+  .modal-wrap .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336; }
+  .modal-wrap .container {
+    padding: 50px; }
+  .modal-wrap span.psw {
+    float: right;
+    padding-top: 16px; }
+  .modal-wrap .modal {
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: black;
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-top: 60px; }
+  .modal-wrap .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: none;
+    border-radius: 15px;
+    max-width: 470px;
+    /* Could be more or less, depending on screen size */ }
+  .modal-wrap .close {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold; }
+  .modal-wrap .close:hover,
+  .modal-wrap .close:focus {
+    color: red;
+    cursor: pointer; }
+  .modal-wrap .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s; }
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0); }
+  to {
+    -webkit-transform: scale(1); } }
+
+@keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+    transform: scale(0); }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+  @media screen and (max-width: 300px) {
+    .modal-wrap span.psw {
+      display: block;
+      float: none; }
+    .modal-wrap .cancelbtn {
+      width: 100%; } }
 
 header {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1653b1+0,2f79dd+100 */
@@ -524,7 +692,7 @@ header.nav-active-bg {
     display: none;
     width: 75%;
     right: 145px;
-    top: -1948px; } }
+    top: -2016px; } }
 
 .product-section {
   background: #f5f5f5;
@@ -604,10 +772,12 @@ header.nav-active-bg {
         background-color: red; }
 
 .img-cloud {
-  background: center url("../img/server 1.png") no-repeat; }
+  margin: 1em auto 2em;
+  display: block; }
 
 .img-product-done {
-  background: center url("../img/server 2.png") no-repeat; }
+  margin: 1em auto 2em;
+  display: block; }
 
 @media screen and (min-width: 1024px) {
   .product-section {
@@ -658,6 +828,18 @@ header.nav-active-bg {
 @media screen and (min-width: 1024px) {
   .product-section {
     margin-top: -30px; } }
+
+.desktop-view {
+  display: none; }
+
+.desktop-none {
+  display: block; }
+
+@media screen and (min-width: 1024px) {
+  .desktop-view {
+    display: initial; }
+  .desktop-none {
+    display: none; } }
 
 .benefit-section {
   margin-top: -2em;
@@ -742,7 +924,7 @@ header.nav-active-bg {
       .benefit-section .container .benefits-section-title {
         font-family: MetropolisExtraBold, sans-serif;
         font-size: 24px;
-        margin-bottom: 20px; }
+        margin-bottom: 44px; }
       .benefit-section .container .benefits-section-description {
         font-family: MetropolisMedium, sans-serif;
         font-size: 15px;
@@ -754,14 +936,16 @@ header.nav-active-bg {
         .benefit-section .container .benefits-wrap .benefits-item {
           width: 24%;
           padding: 2.5em 0;
-          position: relative;
-          top: 0;
-          -webkit-transition: all 0.7s;
-          transition: all 0.7s; }
+          position: relative; }
+          .benefit-section .container .benefits-wrap .benefits-item img {
+            position: relative;
+            top: 0;
+            -webkit-transition: all 0.7s;
+            transition: all 0.7s; }
           .benefit-section .container .benefits-wrap .benefits-item .benefit-title {
             font-size: 14px;
             font-family: MetropolisBold, sans-serif; }
-          .benefit-section .container .benefits-wrap .benefits-item:hover {
+          .benefit-section .container .benefits-wrap .benefits-item:hover img {
             top: -20px; } }
 
 .packages-section {
@@ -929,7 +1113,7 @@ header.nav-active-bg {
     padding: 6em 0 4.0em;
     -webkit-clip-path: polygon(0% 7%, 50% 0%, 100% 4%, 100% 100%, 0% 100%);
     clip-path: polygon(0% 7%, 50% 0%, 100% 4%, 100% 100%, 0% 100%);
-    margin-top: -40px; }
+    margin-top: -36px; }
     .packages-section .packages-footer {
       margin-top: 3.2em; }
       .packages-section .packages-footer .get-more-servers-link {

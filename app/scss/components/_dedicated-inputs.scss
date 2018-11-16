@@ -14,22 +14,22 @@
   display: none; /*hide original SELECT element:*/
 }
 .select-selected {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
-
+  border: 1px solid #b4d1fb;
   color: #1f63ca;
 
   font-family: MetropolisBold, sans-serif;
 
-
 }
+
 .select-selected:before, .select-selected:after {
   content: '';
   position: absolute;
-  top: 16px;
+  top: 13px;
   right: 20px;
   width: 0;
   height: 0;
@@ -50,7 +50,7 @@
 }
 /*style the items (options), including the selected item:*/
 .select-items div,.select-selected {
-  padding: 15px 23px;
+  padding: 12px 23px;
 
   cursor: pointer;
   user-select: none;
@@ -109,4 +109,37 @@
 
 .same-as-selected{
   font-family: MetropolisBold, sans-serif;
+}
+
+.desktop-view{
+  display: none;
+
+}
+
+
+@media screen and (min-width: $layout-breakpoint-1024){
+  .desktop-view{
+    display: initial;
+  }
+
+  .arrow-none:after,
+  .arrow-none:before{
+    display: none;
+
+  }
+
+  .blank-select{
+    border: 1px solid #b4d1fb;
+    padding: 12px 23px;
+    background: rgba(255, 255, 255, .5);
+    font-family: MetropolisBold, sans-serif;
+    cursor: pointer;
+    color: #1f63ca;
+    -webkit-user-select: none;
+    border-radius: 17px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 13px;
+  }
 }

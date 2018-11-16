@@ -21,6 +21,17 @@ header{
     padding: 2em 1.5em;
 
 
+    .img-wrap{
+      position: relative;
+
+      .speed-arrow{
+        width: 33px;
+        position: absolute;
+        top: 63%;
+        left: 37%;
+      }
+    }
+
     img{
       width: 100%;
       height: auto;
@@ -40,10 +51,7 @@ header{
         font-size: 30px;
 
         font-family: MetropolisExtraBold, sans-serif;
-
-
       }
-
 
       .section-description{
 
@@ -139,6 +147,7 @@ header{
     }
 
     .section-map{
+      display: none;
       svg{
         width: 100%;
         height:auto;
@@ -595,15 +604,22 @@ header{
       align-items: center;
 
 
-
-
       max-width: 1190px;
       margin: 0 auto;
 
 
-      img{
+      .img-wrap{
+        position: relative;
         order: 2;
-        width: 500px;
+        margin-right: 40px;
+
+
+        .speed-arrow{
+          width: 166px;
+          position: absolute;
+          top: 48.5%;
+          left: 18.5%;
+        }
       }
 
       .vps-home-header-wrap{
@@ -629,6 +645,8 @@ header{
       }
     }
   }
+
+
 
   .section-multiple-locations{
     background-color: #e1e7f3;
@@ -671,14 +689,12 @@ header{
 
         .vps-location-wrap{
 
-          background: #1A4C97;
           height: 110px;
           padding: 9px 10px;
 
           transition: all 0.9s ease;
 
           a{
-
 
             &:hover{
               background:red;
@@ -687,9 +703,8 @@ header{
         }
       }
 
-
-
       .section-map{
+
         display: block;
         .map-container{
           -webkit-box-sizing: border-box;
@@ -716,7 +731,11 @@ header{
                 -webkit-transform: scale(1);
                 transform: scale(1);
               }
+
+
             }
+
+
 
             .location-pin {
               position: relative;
@@ -758,6 +777,13 @@ header{
               z-index: 999;
               display: block;
               height: 28px;
+
+              &.active{
+                opacity: 1;
+                visibility: visible;
+                -webkit-transform: scale(1);
+                transform: scale(1);
+              }
 
 
               opacity: 0;
@@ -805,8 +831,8 @@ header{
 
             .location-name{
 
-              top: 6px;
-              left: 68px;
+              top: -2px;
+              left: 58px;
 
               &:after{
                 display: none;
@@ -814,17 +840,19 @@ header{
             }
 
             .location-pin{
-              height: 50px;
-              width: 50px;
+
+              height: 20px;
+              width: 20px;
 
               &:after{
-                top: -23px;
-                left: -46%;
-                height: 120px;
-                width: 120px;
+                top: -18px;
+                left: -95%;
+                height: 80px;
+                width: 80px;
               }
             }
           }
+
 
           .location-dallas{
             top: 327px;
@@ -970,12 +998,18 @@ header{
             -o-transition: all 0.7s;
             transition: all 0.7s;
 
+          }
 
+
+          img{
+            position: relative;
+            top: 0;
+            transition: all 0.6s;
           }
 
           &:hover{
 
-            .benefit-img{
+            img{
               top: -20px;
 
             }
@@ -1037,11 +1071,21 @@ header{
         padding: 5em 0;
 
         .map-png{
-          width: 42%;
+          width: 474px;
         }
 
+
+        .customer-support-img{
+          width: 296px;
+        }
+
+        .content-img-deidcated{
+          width: 396px;
+        }
         img{
           width: 35%;
+
+
           order: 2;
           margin: 0;
 
@@ -1080,11 +1124,10 @@ header{
       display: flex;
       align-items: center;
       justify-content: space-around;
-
+      position: relative;
 
       .wrap{
         order: 2;
-        padding: 0 0 0 6em;
 
         .section-title{
           text-align: left;
@@ -1097,16 +1140,30 @@ header{
         .btn{
           display: initial;
 
-          padding: 15px 100px;
+          padding: 13px 30px;
           margin: 3em 0;
+
+          font-size: 14px;
+          -webkit-transition: all 0.8s;
+          -moz-transition: all 0.8s;
+          -ms-transition: all 0.8s;
+          -o-transition: all 0.8s;
+          transition: all 0.8s;
+
+
+          &:hover{
+            background: #eee;
+          }
         }
       }
 
       .packages{
         display: flex;
+        position: relative;
 
         .package:first-child{
-          transform: scale(0.9);
+          display: block;
+          transform: scale(0.8);
         }
       }
 
@@ -1118,8 +1175,8 @@ header{
         &:first-child{
           position: absolute;
           opacity: 0.8;
-          left: 154px;
-
+          left: -90px;
+          top: -15px;
         }
 
         &:last-child{
@@ -1129,6 +1186,71 @@ header{
     }
   }
 
+}
+
+.desktop-view{
+  display: none;
+}
+
+.desktop-none{
+  display: block;
+}
+
+@media screen and (min-width: $layout-breakpoint-1024){
+
+  .section-multiple-locations .section-map {
+    display: none;
+  }
+
+
+
+  .desktop-view{
+    display: initial;
+  }
+
+  .desktop-none{
+    display: none;
+  }
+
+}
+
+
+@keyframes speed {
+  0% {
+    transform: rotate(-30deg);
+  }
+
+
+
+  50% {
+    transform: rotate(-15deg);
+  }
+
+
+  100% {
+    transform: rotate(-30deg);
+  }
+}
+.speed {
+   -webkit-animation-name: speed;
+    animation-name: speed;
+
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.animated {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 

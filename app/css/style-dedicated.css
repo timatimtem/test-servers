@@ -127,7 +127,7 @@ a {
   transition: all 0.5s; }
   .top-navigation .logo-link {
     display: inline-block;
-    background: url("../img/logo-servers.png") no-repeat;
+    background: url("../img/logo@2x.png") no-repeat;
     background-size: contain;
     width: 80px;
     height: 65px;
@@ -209,8 +209,8 @@ a {
     top: 0; }
     .top-navigation .logo-link {
       margin: 0;
-      width: 100px;
-      height: 80px;
+      width: 85px;
+      height: 77px;
       -webkit-box-flex: 20%;
       -ms-flex: 20%;
       flex: 20%; }
@@ -292,6 +292,7 @@ a {
             transform: scale(1.05); }
           .top-navigation .nav-menu .sub-menu li a {
             padding: 1em;
+            font-size: 12px;
             color: #1a5285; }
   .nav-join-us-btn {
     margin-right: 14px !important; } }
@@ -325,7 +326,11 @@ header {
     -webkit-clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 86%);
     clip-path: polygon(0% 0, 100% 0%, 100% 100%, 50% 100%, 0 86%); }
     header .container .home-heading {
-      font-size: 37px; } }
+      font-size: 37px; }
+    header .container .home-description {
+      WIDTH: 38%;
+      MARGIN: 2EM AUTO;
+      LINE-HEIGHT: 22PX; } }
 
 .packages-section {
   background: #f5f5f5;
@@ -492,7 +497,7 @@ header {
     padding: 6em 0 4.0em;
     -webkit-clip-path: polygon(0% 7%, 50% 0%, 100% 4%, 100% 100%, 0% 100%);
     clip-path: polygon(0% 7%, 50% 0%, 100% 4%, 100% 100%, 0% 100%);
-    margin-top: -40px; }
+    margin-top: -36px; }
     .packages-section .packages-footer {
       margin-top: 3.2em; }
       .packages-section .packages-footer .get-more-servers-link {
@@ -562,7 +567,7 @@ header {
       #packages-dedicated .container .packages-wrap .package-row .package {
         width: 100%;
         overflow: hidden;
-        z-index: 1000;
+        z-index: 10000 !important;
         -webkit-box-shadow: 0 0 27px rgba(45, 45, 45, 0.13);
         box-shadow: 0 0 27px rgba(45, 45, 45, 0.13); }
         #packages-dedicated .container .packages-wrap .package-row .package .package-popular {
@@ -599,7 +604,7 @@ header {
               right: -44px; } }
 
 .personal-configuration-section {
-  background: #d8e0ee;
+  background: #dfe6f3;
   margin-top: -108px;
   -webkit-clip-path: polygon(0% 0%, 50% 50px, 100% 50px, 100% 100%, 0% 100%);
   clip-path: polygon(0% 0%, 50% 50px, 100% 50px, 100% 100%, 0% 100%);
@@ -632,12 +637,13 @@ header {
       .personal-configuration-section .container .left-side .select-selected {
         background-color: white;
         border-radius: 15px;
+        border: 1px solid #b4d1fb;
         color: #1f63ca;
         font-family: MetropolisBold, sans-serif; }
       .personal-configuration-section .container .left-side .select-selected:before, .personal-configuration-section .container .left-side .select-selected:after {
         content: '';
         position: absolute;
-        top: 16px;
+        top: 13px;
         right: 20px;
         width: 0;
         height: 0;
@@ -652,7 +658,7 @@ header {
         border-top-style: solid;
         border-bottom: none; }
       .personal-configuration-section .container .left-side .select-items div, .personal-configuration-section .container .left-side .select-selected {
-        padding: 15px 23px;
+        padding: 12px 23px;
         cursor: pointer;
         -webkit-user-select: none;
         -moz-user-select: none;
@@ -687,6 +693,27 @@ header {
         border-color: #fff transparent; }
       .personal-configuration-section .container .left-side .same-as-selected {
         font-family: MetropolisBold, sans-serif; }
+      .personal-configuration-section .container .left-side .desktop-view {
+        display: none; }
+      @media screen and (min-width: 1024px) {
+        .personal-configuration-section .container .left-side .desktop-view {
+          display: initial; }
+        .personal-configuration-section .container .left-side .arrow-none:after,
+        .personal-configuration-section .container .left-side .arrow-none:before {
+          display: none; }
+        .personal-configuration-section .container .left-side .blank-select {
+          border: 1px solid #b4d1fb;
+          padding: 12px 23px;
+          background: rgba(255, 255, 255, 0.5);
+          font-family: MetropolisBold, sans-serif;
+          cursor: pointer;
+          color: #1f63ca;
+          -webkit-user-select: none;
+          border-radius: 17px;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          font-size: 13px; } }
       .personal-configuration-section .container .left-side .left-info {
         font-family: MetropolisRegular, sans-serif;
         padding: 1.5em 0;
@@ -770,13 +797,14 @@ header {
           align-items: center; }
           .personal-configuration-section .container .right-side .package .package-description-list li .total-price-label {
             margin-top: 10px;
-            font-size: 14px; }
+            font-size: 13px;
+            font-family: MetropolisSemiBold, sans-serif !important;
+            color: #a5a5a5 !important; }
           .personal-configuration-section .container .right-side .package .package-description-list li p:first-child {
             color: #a6a6a6;
             width: 45%;
             font-family: MetropolisRegular, sans-serif; }
           .personal-configuration-section .container .right-side .package .package-description-list li p {
-            padding-right: 27px;
             color: #5d5d5d;
             line-height: 1.5;
             font-size: 12px;
@@ -826,7 +854,6 @@ header {
   .personal-configuration-section {
     -webkit-clip-path: polygon(0% 0%, 50% 5%, 100% 5%, 100% 0%, 100% 93%, 50% 100%, 0% 100%);
     clip-path: polygon(0% 0%, 50% 59px, 100% 31px, 100% 0%, 100% 93%, 50% 100%, 0% 100%);
-    background: #cfdbef;
     margin-top: -78px;
     padding: 8em 0 8em; }
     .personal-configuration-section .container {
@@ -868,7 +895,7 @@ header {
           margin-bottom: 0;
           margin-top: 60px; }
         .personal-configuration-section .container .left-side .input-group {
-          margin: 1em 60px -3em 0;
+          margin: 1em 60px -0 0;
           width: 40%; }
           .personal-configuration-section .container .left-side .input-group .input-header {
             font-size: 12px;
@@ -891,7 +918,8 @@ header {
                 appearance: none;
                 padding: 5px; }
       .personal-configuration-section .container .right-side {
-        width: 31%; }
+        width: 31%;
+        margin-top: 36px; }
         .personal-configuration-section .container .right-side .package {
           -webkit-transition: box-shadow 0.7s;
           -webkit-transition: -webkit-box-shadow 0.7s;
@@ -900,10 +928,35 @@ header {
           transition: box-shadow 0.7s, -webkit-box-shadow 0.7s;
           border-radius: 12px;
           margin: 0 1em;
-          padding: 2.3em 30px 2.3em 28px; }
+          padding: 0; }
           .personal-configuration-section .container .right-side .package:hover {
             -webkit-box-shadow: 0 0 20px 0 darkgray;
             box-shadow: 0 0 20px 0 darkgray; }
+          .personal-configuration-section .container .right-side .package .padding-box {
+            padding: 2.3em 30px 1em 28px; }
+          .personal-configuration-section .container .right-side .package .package-footer {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            padding: 15px 29px;
+            background: #f4f8fd;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px; }
+            .personal-configuration-section .container .right-side .package .package-footer p {
+              font-family: MetropolisSemiBold, sans-serif;
+              color: #bcc7d8;
+              font-size: 13px; }
+            .personal-configuration-section .container .right-side .package .package-footer .monthly-price-span-wrap {
+              margin-right: 19%;
+              font-size: 18px;
+              color: #1d5fbd;
+              font-family: MetropolisExtraBold, sans-serif; }
           .personal-configuration-section .container .right-side .package .package-title {
             font-size: 18px;
             font-family: MetropolisExtraBold, sans-serif; }
@@ -1000,7 +1053,7 @@ header {
       .benefit-section .container .benefits-section-title {
         font-family: MetropolisExtraBold, sans-serif;
         font-size: 24px;
-        margin-bottom: 20px; }
+        margin-bottom: 44px; }
       .benefit-section .container .benefits-section-description {
         font-family: MetropolisMedium, sans-serif;
         font-size: 15px;
@@ -1012,15 +1065,28 @@ header {
         .benefit-section .container .benefits-wrap .benefits-item {
           width: 24%;
           padding: 2.5em 0;
-          position: relative;
-          top: 0;
-          -webkit-transition: all 0.7s;
-          transition: all 0.7s; }
+          position: relative; }
+          .benefit-section .container .benefits-wrap .benefits-item img {
+            position: relative;
+            top: 0;
+            -webkit-transition: all 0.7s;
+            transition: all 0.7s; }
           .benefit-section .container .benefits-wrap .benefits-item .benefit-title {
             font-size: 14px;
             font-family: MetropolisBold, sans-serif; }
-          .benefit-section .container .benefits-wrap .benefits-item:hover {
+          .benefit-section .container .benefits-wrap .benefits-item:hover img {
             top: -20px; } }
+
+@media screen and (min-width: 1024px) {
+  .benefit-section .container .benefits-section-title {
+    margin-bottom: 44px; } }
+
+.desktop-view {
+  display: none; }
+
+@media screen and (min-width: 1024px) {
+  .desktop-view {
+    display: block; } }
 
 .faq-section {
   padding: 3em 0;

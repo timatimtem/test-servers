@@ -1,0 +1,26 @@
+@import "var";
+@import "reset";
+@import "fonts";
+
+
+
+body{
+
+  background: #1355ba;
+
+}
+
+
+
+@import "login-modal";
+
+@media screen and (min-width: $layout-breakpoint-1024){
+
+
+}
+
+
+footer{
+  display: none;
+
+}

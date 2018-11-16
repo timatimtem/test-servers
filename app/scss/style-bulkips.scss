@@ -1,0 +1,740 @@
+@import "var";
+@import "reset";
+@import "fonts";
+
+@import "burger-menu";
+
+@import "nav";
+
+
+body{
+  background: #003486;
+}
+header{
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0a4193+0,1957a7+100 */
+  background: #0a4193; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #0a4193 0%, #1957a7 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #0a4193 0%,#1957a7 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #0a4193 0%,#1957a7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a4193', endColorstr='#1957a7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  clip-path: polygon(0% 0%, 100% 0% , 100% 94%, 0% 100%);
+
+  .container{
+    padding: 2em 1.5em;
+
+
+    img{
+      width: 100%;
+      height: auto;
+    }
+
+
+    .vps-home-header-wrap{
+      color: #fff;
+      padding: 3em 0 1em;
+
+      text-align: center;
+
+
+      .section-header{
+
+        margin-bottom: 1em;
+        font-size: 30px;
+
+        font-family: MetropolisExtraBold, sans-serif;
+
+
+      }
+
+
+      .section-description{
+
+        font-size: 17px;
+
+        line-height: 20px;
+
+        font-family: MetropolisMedium, sans-serif;
+      }
+
+      .vps-home-btn{
+        display: block;
+        padding: 10px 30px;
+        border-radius: 24px;
+        color: red;
+        width: 180px;
+        background: white;
+        margin: 4em auto;
+
+        font-family: MetropolisExtraBold, sans-serif;
+        font-size: 14px;
+
+        -webkit-transition: all 0.7s;
+        -moz-transition: all 0.7s;
+        -ms-transition: all 0.7s;
+        -o-transition: all 0.7s;
+        transition: all 0.7s;
+
+        &:hover, &:active{
+          -webkit-box-shadow: 0px 0px 20px 9px #2f79dd;
+          box-shadow: 0px 0px 20px 9px #2f79dd;
+        }
+      }
+    }
+  }
+
+
+
+}
+
+.section-bulk-benefits{
+  background-color: #e1e7f3;
+
+  ///* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0a4193+0,1956a7+100 */
+  //background: #0a4193; /* Old browsers */
+  //background: -moz-linear-gradient(-45deg, #0a4193 0%, #1956a7 100%); /* FF3.6-15 */
+  //background: -webkit-linear-gradient(-45deg, #0a4193 0%,#1956a7 100%); /* Chrome10-25,Safari5.1-6 */
+  //background: linear-gradient(135deg, #0a4193 0%,#1956a7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a4193', endColorstr='#1956a7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  padding: 5em 0 1em;
+
+  margin-top: -51px;
+
+  .section-title{
+    text-align: center;
+
+    font-size: 30px;
+    line-height: 42px;
+    color: rgb(41,41,41);
+
+    font-family: MetropolisExtraBold, sans-serif;
+    margin-bottom: 1.5em;
+  }
+
+
+  .container{
+    padding: 0 1.5em;
+
+
+
+
+    .bulk-benefit{
+      border-radius: 12px;
+      background: white;
+      padding: 20px;
+      margin-bottom: 2em;
+      .benefit-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+
+
+
+
+        .benefit-title{
+          color: #094fb1;
+
+          font-family: MetropolisExtraBold, sans-serif;
+
+          font-size: 20px;
+        }
+
+        img{
+          width: 50px;
+        }
+      }
+
+      .benefit-description{
+
+        font-family: MetropolisMedium, sans-serif;
+        color: #094fb1;
+        font-size: 13px;
+        line-height: 22px;
+
+      }
+
+    }
+
+
+
+  }
+
+}
+
+.work{
+  padding: 3em 0;
+
+  background: #ffffff;
+  .container{
+    padding: 0 1.5em;
+
+    .left{
+      .section-header{
+
+        font-family: MetropolisExtraBold, sans-serif;
+        color: #094fb1;
+        font-size: 30px;
+
+        position: relative;
+        margin-bottom: 2.5em;
+
+        &:after{
+          position: absolute;
+
+          bottom: 0;
+          left: 0;
+          content: "";
+          width: 30%;
+          height: 1px;
+          background: #8e8e8e;
+        }
+      }
+      .text-block{
+
+        margin-bottom: 2em;
+
+        h4{
+          font-size: 24px;
+          font-family: MetropolisExtraBold, sans-serif;
+          color: #094fb1;
+          margin-bottom: 1em;
+
+        }
+
+        p{
+          font-size: 18px;
+          line-height: 30px;
+          color: rgb(61,61,61);
+          font-family: MetropolisMedium, sans-serif;
+        }
+      }
+    }
+
+    .right{
+      .section-header{
+        text-align: right;
+
+        font-size: 30px;
+        line-height: 42px;
+        color: #094fb1;
+
+        font-family: MetropolisExtraBold, sans-serif;
+        margin-bottom: 1.5em;
+      }
+
+      .text-block{
+        color: #fff;
+        background: #094fb1;
+        padding: 25px;
+
+        border-radius: 12px;
+        margin-bottom: 2em;
+
+        h5{
+          font-family: MetropolisExtraBold, sans-serif;
+          font-size: 20px;
+          margin-bottom: 1em;
+        }
+
+
+
+        .text-block-price{
+          font-family: MetropolisBold, sans-serif;
+          font-size: 28px;
+          margin-bottom: 12px;
+
+        }
+      }
+
+      .text-block-contacts{
+        font-size: 10px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        font-family: MetropolisRegular, sans-serif;
+        span{
+          margin-right: auto;
+          margin-left: 10px;
+        }
+        .btn{
+
+          border-radius: 25px;
+
+          background: #fff;
+
+          padding: 10px ;
+          color: red;
+        }
+      }
+    }
+  }
+}
+
+
+
+.contact-section{
+  clip-path: polygon(0% 30px, 100% 0%, 100% 100%, 0% 100%);
+  padding: 4em 0 0em;
+  margin-top: -40px;
+
+  background: #094fb1;
+
+  .container{
+    padding: 0 1.5em;
+
+
+    .left{
+
+      .left-header{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-bottom: 50px;
+        h5{
+          font-family: MetropolisBold, sans-serif;
+          font-size: 24px;
+          color: white;
+        }
+
+        img{
+          width: 80px;
+          height: 100%;
+        }
+      }
+
+      p{
+        font-size: 14px;
+        line-height: 24px;
+        color: rgb(255,255,255);
+        font-family: MetropolisMedium, sans-serif;
+
+        margin-bottom: 2em;
+      }
+
+
+    }
+
+    .right{
+
+      ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        opacity: 1; /* Firefox */
+      }
+
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: white;
+      }
+
+      ::-ms-input-placeholder { /* Microsoft Edge */
+        color: white;
+      }
+
+      p{
+        margin-bottom: 1.5em;
+      }
+
+
+      label{
+        font-size: 12px;
+        font-family: MetropolisMedium;
+        line-height: 41px;
+        color: rgba(255,255,255,.3);
+
+        padding-left: 14px;
+
+        .label-padding-left{
+          padding-left: 20px;
+        }
+      }
+
+      input,
+      select,
+      textarea{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 20px;
+        min-height: 50px;
+        height: 50px;
+        border: none;
+        background: #0645a1;
+        color: white;
+        border-radius: 6px;
+
+        font-family: MetropolisMedium, sans-serif;
+        outline: none;
+      }
+
+
+      textarea{
+        padding: 20px 14px;
+      }
+
+      .btn-wrap{
+        position: relative;
+        input{
+          font-family: MetropolisBold, sans-serif;
+          font-size: 18px;
+          background: white;
+          color: #134f9f;
+          text-align: left;
+        }
+        i{
+          position: absolute;
+          top: 18px;
+          left: 88%;
+        }
+      }
+    }
+
+  }
+}
+@media screen and (min-width: $layout-breakpoint-1024) {
+
+  header {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 83%);
+
+    .header-inner {
+      padding-bottom: 7em;
+
+    }
+
+    .container {
+      display: flex;
+
+      align-items: center;
+
+      max-width: 1190px;
+      margin: 0 auto;
+
+      img {
+        order: 2;
+        width: 680px;
+        margin-right: 40px;
+
+        position: relative;
+        left: 136px;
+      }
+
+      .vps-home-header-wrap {
+
+        width: 100%;
+
+        .section-header {
+          text-align: left;
+          font-size: 37px;
+        }
+
+        .section-description {
+          text-align: left;
+          font-size: 14px;
+          line-height: 24px;
+          color: rgb(223,223,223);
+          width: 100%;
+
+        }
+
+        .vps-home-btn {
+          margin: 3em 0;
+          padding: 11px 20px;
+        }
+      }
+    }
+  }
+
+  .section-bulk-benefits{
+    background-color: #e1e7f3;
+
+    padding-bottom: 8em;
+    //
+    ///* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0a4193+0,1956a7+100 */
+    //background: #0a4193; /* Old browsers */
+    //background: -moz-linear-gradient(-45deg, #0a4193 0%, #1956a7 100%); /* FF3.6-15 */
+    //background: -webkit-linear-gradient(-45deg, #0a4193 0%,#1956a7 100%); /* Chrome10-25,Safari5.1-6 */
+    //background: linear-gradient(135deg, #0a4193 0%,#1956a7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a4193', endColorstr='#1956a7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    margin-top: -54px;
+    clip-path: polygon(0% 30px, 50% 0, 100% 49px, 100% 100%, 0% 100%);
+
+
+    .container{
+      padding: 0;
+
+      max-width: 1190px;
+
+      margin: 0 auto;
+
+      display: flex;
+      flex-wrap: wrap;
+
+      .bulk-benefit{
+        padding: 30px 30px 30px 50px;
+        width: 40%;
+        margin: 1em;
+
+
+      }
+    }
+  }
+
+  .work{
+
+    clip-path: polygon(0 33px, 100% 0%, 100% 100%, 0% 100%);
+
+    margin-top: -50px;
+
+    padding: 8em 0;
+    .container{
+
+      display: flex;
+
+      justify-content: space-between;
+      max-width: 1190px;
+      margin: 0 auto;
+
+      .left{
+        width: 50%;
+
+        .section-header{
+          font-size: 24px;
+          margin-bottom: 100px;
+
+          &:after{
+            top: 40px;
+          }
+
+
+        }
+
+        .text-block{
+
+          margin-bottom: 60px;
+          h4{
+            font-size: 18px;
+
+          }
+
+          p{
+            font-size: 14px;
+          }
+        }
+      }
+
+      .right{
+        width: 40%;
+        
+        .section-header{
+          text-align: left;
+          font-size: 24px;
+
+          margin-bottom: 100px;
+        }
+
+        .text-block{
+          h5{
+            font-family: MetropolisMedium, sans-serif;
+            font-size: 20px;
+          }
+
+          .text-block-price{
+            font-size: 16px;
+            font-family: MetropolisBold, sans-serif;
+          }
+        }
+
+        .text-block-contacts{
+          font-size: 12px;
+
+
+          .btn{
+            padding: 10px 20px;
+
+            transition: all 0.5s;
+            &:hover{
+              background: #ddd;
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+
+  .contact-section{
+    padding: 8em 0 3em;
+    .container{
+      max-width: 1190px;
+      margin: 0 auto;
+
+      display: flex;
+      justify-content: space-between;
+
+      .left,
+      .right{
+        width: 37%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+      .left{
+
+        .img-wrap{
+          position: relative;
+
+          display: block;
+          width: 100%;
+          height: 269px;
+
+          .plane{
+
+
+            position: absolute;
+
+          }
+
+          .plane-big{
+
+            width: 135px;
+            top: 40%;
+          }
+
+          .plane-medium{
+            top: 25%;
+            left: 50%;
+            width: 60px;
+          }
+
+          .plane-small{
+            width: 40px;
+            left: 48%;
+          }
+        }
+      }
+
+      .right{
+        width: 60%;
+        padding: 0 3em;
+
+        div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{
+          border: none;
+        }
+
+        div.wpcf7-response-output {
+          margin: 1em 0.5em 1em;
+          padding: 10px;
+
+
+          background: white;
+          font-family: MetropolisMedium, sans-serif;
+          font-size: 12px;
+          color: red;
+        }
+
+        div.wpcf7-mail-sent-ok{
+          color: green;
+          border: none;
+        }
+
+        .wrap{
+
+          margin-bottom: 25px;
+          display: flex;
+
+          justify-content: space-between;
+
+          .wrap-inner{
+
+            width: 46%;
+            display: flex;
+
+            flex-direction: column;
+
+            label{
+              width: 100%;
+            }
+          }
+
+          input[type="submit"]{
+
+            &:hover{
+              opacity: 0.8;
+            }
+          }
+
+
+
+
+
+          label{
+            width: 46%;
+
+            max-height: 88px;
+
+            line-height: 30px;
+
+            bottom: 2em;
+
+            padding-left: 0;
+            font-size: 12px;
+
+
+
+            span.wpcf7-not-valid-tip{
+
+              margin-left: 20px;
+              color: white;
+            }
+
+
+            select.wpcf7-form-control.wpcf7-select * {
+              font-size: 15px;
+              padding: 1em;
+              outline: none;
+              /* color: red; */
+              min-height: 1.5em;
+            }
+            textarea{
+              height: 126px;
+              resize: none;
+            }
+          }
+
+        }
+      }
+
+    }
+  }
+
+}
+
+
+.desktop-view{
+  display: none;
+}
+
+.desktop-none{
+  display: block;
+}
+
+@media screen and (min-width: $layout-breakpoint-1024){
+
+  .desktop-view{
+    display: initial;
+  }
+
+  .desktop-none{
+    display: none;
+  }
+
+}
+
+@import "footer";

@@ -158,7 +158,7 @@
       .benefits-section-title{
         font-family: MetropolisExtraBold, sans-serif;
         font-size: 24px;
-        margin-bottom: 20px;
+        margin-bottom: 44px;
       }
 
       .benefits-section-description{
@@ -184,13 +184,17 @@
 
           position: relative;
 
-          top: 0;
 
-          -webkit-transition: all 0.7s;
-          -moz-transition: all 0.7s;
-          -ms-transition: all 0.7s;
-          -o-transition: all 0.7s;
-          transition: all 0.7s;
+          img{
+            position: relative;
+            top: 0;
+            -webkit-transition: all 0.7s;
+            -moz-transition: all 0.7s;
+            -ms-transition: all 0.7s;
+            -o-transition: all 0.7s;
+            transition: all 0.7s;
+          }
+
 
           .benefit-title{
 
@@ -198,9 +202,12 @@
             font-family: MetropolisBold, sans-serif;
           }
 
-
           &:hover{
-            top: -20px;
+
+            img{
+
+              top: -20px;
+            }
           }
         }
       }

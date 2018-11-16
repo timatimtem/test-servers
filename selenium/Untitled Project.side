@@ -1,0 +1,21 @@
+{
+  "id": "35c92897-2ac2-4765-a933-9f4417ae9262",
+  "version": "1.1",
+  "name": "Untitled Project",
+  "url": "https://blazingseollc.com/hosting/",
+  "tests": [{
+    "id": "95b1619f-521b-45c5-8984-b03a59bed82e",
+    "name": "hosting",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "b56663ee-d511-47f6-9da7-b2678e464ead",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["95b1619f-521b-45c5-8984-b03a59bed82e"]
+  }],
+  "urls": [],
+  "plugins": []
+}

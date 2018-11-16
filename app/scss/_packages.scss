@@ -235,10 +235,9 @@
 
   .packages-section{
     padding: 6em 0 4.0em;
-
     -webkit-clip-path: polygon(0% 7%, 50% 0%, 100% 4%, 100% 100%, 0% 100%);
     clip-path: polygon(0% 7%, 50% 0%, 100% 4%, 100% 100%, 0% 100%);
-    margin-top: -40px;
+    margin-top: -36px;
 
     .packages-footer{
       margin-top: 3.2em;
@@ -250,7 +249,6 @@
         border-bottom-color: #0c4eb1;
         
         &:hover{
-
           color: #083987;
         }
       }

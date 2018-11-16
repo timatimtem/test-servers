@@ -72,9 +72,24 @@ header{
 
 @media screen and (min-width: $layout-breakpoint-1024){
 
+  .benefit-section .container{
+    .benefits-section-title{
+      margin-bottom: 44px;
+    }
+  }
+
+
+  .benefit-section .container .benefits-wrap{
+    width: 68%;
+  }
   .benefit-section .container .benefits-wrap .benefits-item{
     width: 32%;
   }
+}
+
+
+@media screen {
+
 }
 
 

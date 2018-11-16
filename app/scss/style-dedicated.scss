@@ -45,18 +45,23 @@ header{
 
 }
 
-
 @media screen and (min-width: $layout-breakpoint-1024){
 
   header{
     -webkit-clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 86%);
     clip-path: polygon(0% 0, 100% 0%, 100% 100%,50% 100%,  0 86%);
 
-
     .container{
 
       .home-heading{
         font-size: 37px;
+      }
+
+
+      .home-description{
+        WIDTH: 38%;
+        MARGIN: 2EM AUTO;
+        LINE-HEIGHT: 22PX;;
       }
     }
   }
@@ -88,12 +93,10 @@ header{
       margin-top: -110px;
 
       .package-row{
-
         .package{
           width: 100%;
           overflow: hidden;
-          z-index: 1000;
-
+          z-index: 10000 !important;
           box-shadow: 0 0 27px rgba(45,45,45,0.13);
 
           .package-popular{
@@ -154,11 +157,29 @@ header{
   }
 }
 
-
-
 @import "personal-configuration";
 
 @import "benefits";
+
+
+@media screen and (min-width: $layout-breakpoint-1024) {
+
+  .benefit-section .container {
+    .benefits-section-title {
+      margin-bottom: 44px;
+    }
+  }
+}
+
+.desktop-view{
+  display: none;}
+
+@media screen  and (min-width:$layout-breakpoint-1024){
+
+  .desktop-view{
+    display: block;
+  }
+}
 
 
 @import "faq";

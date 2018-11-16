@@ -349,6 +349,15 @@ header{
     padding: 0 1.5em;
 
 
+    .packages{
+      display: flex;
+
+      .package:first-child{
+        display: none;
+      }
+    }
+
+
     .section-title{
 
       font-family: MetropolisExtraBold, sans-serif;
@@ -605,7 +614,7 @@ header{
     box-shadow: 0 0 0 0 rgba(204,0,0, 0.4);
   }
   70% {
-    -moz-box-shadow: 0 0 0 40px rgba(204,0,0, 0);
+    -moz-box-shadow: 0 0 0 20px rgba(204,0,0, 0);
     box-shadow: 0 0 0 20px rgba(204,0,0, 0);
   }
   100% {
@@ -642,7 +651,8 @@ header{
 
       img{
         order: 2;
-        width: 500px;
+        width: 452px;
+        margin-right: 40px;
       }
 
       .vps-home-header-wrap{
@@ -800,6 +810,13 @@ header{
               display: block;
               height: 28px;
 
+              &.active{
+                opacity: 1;
+                visibility: visible;
+                -webkit-transform: scale(1);
+                transform: scale(1);
+              }
+
 
               opacity: 0;
               visibility: hidden;
@@ -846,8 +863,8 @@ header{
 
             .location-name{
 
-              top: 6px;
-              left: 68px;
+              top: -2px;
+              left: 58px;
 
               &:after{
                 display: none;
@@ -855,17 +872,19 @@ header{
             }
 
             .location-pin{
-              height: 50px;
-              width: 50px;
+
+              height: 20px;
+              width: 20px;
 
               &:after{
-                top: -23px;
-                left: -46%;
-                height: 120px;
-                width: 120px;
+                top: -18px;
+                left: -95%;
+                height: 80px;
+                width: 80px;
               }
             }
           }
+
 
           .location-dallas{
             top: 327px;
@@ -992,7 +1011,22 @@ header{
           box-sizing: border-box;
           width: 33.33%;
 
-          padding: 2em 1em;
+          padding: 36px 1em;
+
+          img {
+            position: relative;
+
+            top: 0px;
+
+            -webkit-transition: all 0.6s;
+            -moz-transition: all 0.6s;
+            -ms-transition: all 0.6s;
+            -o-transition: all 0.6s;
+            transition: all 0.6s;
+
+          }
+
+
 
 
 
@@ -1015,7 +1049,7 @@ header{
 
           &:hover{
 
-            .benefit-img{
+            img{
               top: -20px;
 
             }
@@ -1077,7 +1111,20 @@ header{
         padding: 5em 0;
 
         .map-png{
-          width: 42%;
+          width: 474px;
+        }
+
+
+        .customer-support-img{
+          width: 296px;
+        }
+
+        .content-img-vps{
+          width: 457px;
+        }
+
+        .uptime-png{
+          width: 350px;
         }
 
         img{
@@ -1122,7 +1169,6 @@ header{
       justify-content: space-around;
       .wrap{
         order: 2;
-        padding: 0 0 0 6em;
 
 
         .section-title{
@@ -1136,20 +1182,34 @@ header{
         .btn{
           display: initial;
 
-          padding: 15px 100px;
+          padding: 13px 30px;
           margin: 3em 0;
+
+          font-size: 14px;
+          -webkit-transition: all 0.8s;
+          -moz-transition: all 0.8s;
+          -ms-transition: all 0.8s;
+          -o-transition: all 0.8s;
+          transition: all 0.8s;
+
+
+          &:hover{
+            background: #eee;
+          }
         }
       }
 
       .packages{
         display: flex;
 
+        position: relative;
         .package:first-child{
           transform: scale(0.9);
+          display: block;
 
           position: absolute;
           opacity: 0.8;
-          left: 154px;
+          left: -80px;
         }
       }
 
@@ -1163,9 +1223,30 @@ header{
 
         &:last-child{
           z-index: 100000;
+          width: 270px;
         }
       }
     }
+  }
+
+}
+
+.desktop-view{
+  display: none;
+}
+
+.desktop-none{
+  display: block;
+}
+
+@media screen and (min-width: $layout-breakpoint-1024){
+
+  .desktop-view{
+    display: initial;
+  }
+
+  .desktop-none{
+    display: none;
   }
 
 }

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="55" viewBox="0 0 44 55">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #252525;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        font-size: 14px;
+        text-anchor: middle;
+        font-family: Metropolis-ExtraBold, Metropolis;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="ssd" class="cls-1">
+    <rect id="Прямоугольник_скругл._углы_1_копия_2" data-name="Прямоугольник, скругл. углы 1 копия 2" class="cls-2" x="1.5" y="1.5" width="41" height="52" rx="2" ry="2"/>
+    <path id="Прямоугольник_скругл._углы_1_копия_2-2" data-name="Прямоугольник, скругл. углы 1 копия 2" class="cls-3" d="M1728,119h37a2,2,0,0,1,2,2v40.571a2,2,0,0,1-2,2h-37a2,2,0,0,1-2-2V121A2,2,0,0,1,1728,119Z" transform="translate(-1724.5 -117.5)"/>
+    <path id="Прямоугольник_1_копия_9" data-name="Прямоугольник 1 копия 9" class="cls-3" d="M1738.42,162.333h2.49v7.429h-2.49v-7.429Z" transform="translate(-1724.5 -117.5)"/>
+    <path id="Прямоугольник_1_копия_9-2" data-name="Прямоугольник 1 копия 9" class="cls-3" d="M1742.15,162.333h2.49v7.429h-2.49v-7.429Z" transform="translate(-1724.5 -117.5)"/>
+    <path id="Прямоугольник_1_копия_9-3" data-name="Прямоугольник 1 копия 9" class="cls-3" d="M1745.88,162.333h2.48v7.429h-2.48v-7.429Z" transform="translate(-1724.5 -117.5)"/>
+    <path id="Прямоугольник_1_копия_9-4" data-name="Прямоугольник 1 копия 9" class="cls-3" d="M1749.61,162.333h2.48v7.429h-2.48v-7.429Z" transform="translate(-1724.5 -117.5)"/>
+    <path id="Прямоугольник_1_копия_9-5" data-name="Прямоугольник 1 копия 9" class="cls-3" d="M1753.33,162.333h2.49v7.429h-2.49v-7.429Z" transform="translate(-1724.5 -117.5)"/>
+    <path id="Прямоугольник_1_копия_9-6" data-name="Прямоугольник 1 копия 9" class="cls-3" d="M1730.97,156.143h2.48v2.476h-2.48v-2.476Z" transform="translate(-1724.5 -117.5)"/>
+    <path id="Прямоугольник_1_копия_9-7" data-name="Прямоугольник 1 копия 9" class="cls-3" d="M1730.97,123.952h2.48v2.477h-2.48v-2.477Z" transform="translate(-1724.5 -117.5)"/>
+    <path id="Прямоугольник_1_копия_9-8" data-name="Прямоугольник 1 копия 9" class="cls-3" d="M1759.55,156.143h2.48v2.476h-2.48v-2.476Z" transform="translate(-1724.5 -117.5)"/>
+    <path id="Прямоугольник_1_копия_9-9" data-name="Прямоугольник 1 копия 9" class="cls-3" d="M1759.55,123.952h2.48v2.477h-2.48v-2.477Z" transform="translate(-1724.5 -117.5)"/>
+    <text id="ssd_копия" data-name="ssd копия" class="cls-4" transform="translate(21.812 28.909) scale(1.134 1.132)">ssd</text>
+  </g>
+</svg>

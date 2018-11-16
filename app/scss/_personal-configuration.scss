@@ -3,7 +3,7 @@
 
 
 .personal-configuration-section{
-  background: #d8e0ee;
+  background: #dfe6f3;
 
 
   margin-top: -108px;
@@ -150,7 +150,10 @@
 
             .total-price-label{
               margin-top: 10px;
-              font-size: 14px;
+              font-size: 13px;
+
+              font-family: MetropolisSemiBold, sans-serif !important;
+              color: #a5a5a5 !important;
             }
 
             p:first-child{
@@ -160,7 +163,6 @@
               font-family: MetropolisRegular, sans-serif;
             }
             p{
-              padding-right: 27px;
               color: #5d5d5d;
               line-height: 1.5;
               font-size: 12px;
@@ -172,7 +174,6 @@
                 float: right;
                 color: #1355ba;
                 font-family: MetropolisSemiBold, sans-serif;
-
               }
             }
           }
@@ -242,7 +243,6 @@
 
     -webkit-clip-path: polygon(0% 0%, 50% 5%, 100% 5%, 100% 0%, 100% 93%, 50% 100%, 0% 100%);
     clip-path: polygon(0% 0%, 50% 59px, 100% 31px, 100% 0%, 100% 93%, 50% 100%, 0% 100%);
-    background: #cfdbef;
     margin-top: -78px;
     padding: 8em 0 8em;
 
@@ -293,8 +293,7 @@
 
         .input-group{
 
-          margin: 1em 60px -3em 0;
-
+          margin: 1em 60px -0 0;
           width: 40%;
 
           .input-header{
@@ -342,7 +341,7 @@
       .right-side{
 
         width: 31%;
-
+        margin-top: 36px;
         .package{
           -webkit-transition: box-shadow 0.7s;
           -moz-transition: box-shadow 0.7s;
@@ -357,7 +356,42 @@
           border-radius: 12px;
           margin: 0 1em;
 
-          padding: 2.3em 30px 2.3em 28px;
+          padding: 0;
+
+          .padding-box{
+            padding: 2.3em 30px 1em 28px;
+
+          }
+
+          .package-footer{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            padding: 15px 29px;
+            background: #f4f8fd;
+
+
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+
+            p{
+              font-family: MetropolisSemiBold, sans-serif;
+              color: #bcc7d8;
+
+              font-size: 13px;
+            }
+
+            .monthly-price-span-wrap{
+              margin-right: 19%;
+              font-size: 18px;
+              color: #1d5fbd;
+              font-family: MetropolisExtraBold, sans-serif;
+            }
+
+
+          }
+
 
           .package-title{
             font-size: 18px;
@@ -395,7 +429,6 @@
             }
           }
         }
-
       }
     }
   }

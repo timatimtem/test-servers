@@ -168,7 +168,7 @@
     line-height: 1.4;
     display: block;
     position: absolute;
-    top: 71.2%;
+    top: 70.2%;
     right: -27px;
     width: 273px;
     border: none;
@@ -184,7 +184,7 @@
     right: 0;
     border: 2px solid #398f14;
     position: absolute;
-    top: 68.5%;
+    top: 67.5%;
     color: #398f14;
     width: 30%;
     border: none;
@@ -222,6 +222,7 @@
             box-sizing: border-box;
             width: 353px;
             height: 100px;
+            resize: none;
           }
 
           select{

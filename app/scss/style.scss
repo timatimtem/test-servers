@@ -5,6 +5,8 @@
 
 @import "nav";
 
+@import "login-modal";
+
 
 
 
@@ -322,7 +324,7 @@ header.nav-active-bg{
 
     width: 75%;
     right: 145px;
-    top: -1948px;
+    top: -2016px;
   }
 }
 @import "products";
@@ -334,6 +336,29 @@ header.nav-active-bg{
 
 }
 
+
+
+
+
+
+.desktop-view{
+  display: none;
+}
+
+.desktop-none{
+  display: block;
+}
+
+@media screen and (min-width: $layout-breakpoint-1024){
+
+  .desktop-view{
+    display: initial;
+  }
+
+  .desktop-none{
+    display: none;
+  }
+}
 @import "benefits";
 
 

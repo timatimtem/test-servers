@@ -1,0 +1,4 @@
+/vendor/
+/logs
+/.logger.env.yml
+.idea

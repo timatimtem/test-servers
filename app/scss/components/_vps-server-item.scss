@@ -87,6 +87,7 @@
 
           }
 
+
           .tt-table-right{
 
             @import "dedicated-inputs";
@@ -95,6 +96,14 @@
               display: none;
             }
 
+            .select-selected{
+              padding: 10px 23px;
+              &:after,
+              &:before{
+
+                top: 10px !important;
+              }
+            }
 
             p{
               font-family: MetropolisMedium, sans-serif;
@@ -250,7 +259,6 @@
             padding: 10px;
           }
 
-
           &-title{
             display: none;
 
@@ -269,6 +277,11 @@
 
             .tt-table-right{
               width: 100%;
+
+              .windows-pull-left{
+                position: relative;
+                right: 104px;
+              }
 
               & > div{
                 display: flex;
@@ -292,6 +305,8 @@
           }
 
           .vps-server-more-btn{
+
+
             button{
               display: none !important;
             }
@@ -310,7 +325,7 @@
 
             .padding-box{
 
-              padding: 10px !important;
+              padding: 15px !important;
               display: flex;
               align-items: center;
               justify-content: flex-end;
@@ -322,6 +337,20 @@
                 .tt-table-right{
 
                   justify-content: space-evenly;
+
+                  .location-inner-wrap{
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    & > span:first-child{
+
+                      color: #838b95;
+                      margin-right: 10px;
+
+                    }
+                  }
 
                   .select-selected{
                     width: 108px;
@@ -349,7 +378,7 @@
                   p.price{
                     MARGIN-TOP: 3px;
                     FONT-SIZE: 24PX;
-                    margin-right: 67px;
+                    margin-right: 91px;
                     FONT-FAMILY: MetropolisExtraBold, sans-serif;
                   }
 

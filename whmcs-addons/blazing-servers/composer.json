@@ -1,0 +1,37 @@
+{
+    "minimum-stability": "stable",
+    "require": {
+        "and/whmcs-module-framework": "0.6.*@dev",
+        "and/symlink-detective": "@dev",
+        "axelarge/array-tools": "@dev",
+        "and/isolate-composer": "1.*@dev",
+        "neilsblazingteam/logger": "~1.0-dev",
+        "symfony/http-kernel": "~3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "WHMCS\\Module\\Blazing\\Servers\\": "src/"
+        }
+    },
+    "require-dev": {},
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://bitbucket.org/sprious-development/logger.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/logical-and/composer-isolation"
+        }
+    ],
+    "config": {
+        "prepend-autoloader": false,
+        "isolate": {
+            "prefix": "WHMCS\\Module\\Blazing\\Servers\\Vendor\\",
+            "autorun": true
+        },
+        "logger": {
+            "appName": "blazing_servers"
+        }
+    }
+}

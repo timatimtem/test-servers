@@ -1,0 +1,176 @@
+{
+  "id": "27de5a4c-5fe5-498f-b2af-53d37b505f9d",
+  "version": "1.1",
+  "name": "Blazing SEO Hosting home page",
+  "url": "",
+  "tests": [{
+    "id": "59bf63e8-0431-4681-a78a-c5b3678bca08",
+    "name": "home button click test ",
+    "commands": [{
+      "id": "5adb0487-71c6-4d47-888f-733cff33a3d1",
+      "comment": "Should open the Home page",
+      "command": "open",
+      "target": "https://blazingseollc.com/hosting/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e75df86-0a1f-4b97-afa5-38dcbbd0af7f",
+      "comment": "verify if button present",
+      "command": "verifyElementPresent",
+      "target": "//a[@href='#packages-section']",
+      "targets": [
+        ["linkText=Get Your Server Today!", "linkText"],
+        ["css=a.btn.home-btn", "css"],
+        ["//a[contains(text(),'Get Your Server Today!')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#packages-section')])[2]", "xpath:href"],
+        ["//div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "076804a0-4faa-4401-9eba-25cc9a9866f0",
+      "comment": "should scroll to \"\"Package Description Section:",
+      "command": "click",
+      "target": "linkText=Get Your Server Today!",
+      "targets": [
+        ["linkText=Get Your Server Today!", "linkText"],
+        ["css=a.btn.home-btn", "css"],
+        ["//a[contains(text(),'Get Your Server Today!')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#packages-section')])[2]", "xpath:href"],
+        ["//div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6214ca8d-2fa7-4e3f-a2bb-4193ce0f0aaa",
+      "comment": "verify if tscreen on Package Description Section",
+      "command": "verifyText",
+      "target": "id=packages-section",
+      "targets": [
+        ["id=packages-section", "id"],
+        ["css=#packages-section", "css"],
+        ["//h2[@id='packages-section']", "xpath:attributes"],
+        ["//section[3]/h2", "xpath:position"]
+      ],
+      "value": "Package Description"
+    }]
+  }, {
+    "id": "e0a66c4b-cdd1-4e7f-b6b0-4a0525e0ffcf",
+    "name": "product vps \"get started\"",
+    "commands": [{
+      "id": "71c91c28-e68b-4d71-8305-e19221eb016c",
+      "comment": "should open home page",
+      "command": "open",
+      "target": "https://blazingseollc.com/hosting/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a338c9c9-f0a5-46be-9111-b7058346c996",
+      "comment": "should lead to /hosting/vps/pricing/#standard",
+      "command": "click",
+      "target": "linkText=Get Started!",
+      "targets": [
+        ["linkText=Get Started!", "linkText"],
+        ["css=a.get-started-btn.vps", "css"],
+        ["//a[contains(text(),'Get Started!')]", "xpath:link"],
+        ["//a[contains(@href, '/hosting/vps/pricing/#standard')]", "xpath:href"],
+        ["//section/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51e7d56d-cc02-4cb1-b764-97e13b914f2e",
+      "comment": "verify if title is \"VPS Hosting\"",
+      "command": "verifyText",
+      "target": "css=h1.home-heading",
+      "targets": [],
+      "value": "VPS Hosting"
+    }]
+  }, {
+    "id": "08c5091f-3659-4c96-bbc2-ad5a30dc48ff",
+    "name": "product dedicated \"get started\"",
+    "commands": [{
+      "id": "bfe23d41-b149-4e6e-8edf-eca75074378e",
+      "comment": "should open home page",
+      "command": "open",
+      "target": "https://blazingseollc.com/hosting/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a783d54-95b2-47e7-ab16-97b1ad34a7c8",
+      "comment": "should lead to /hosting/dedicated-servers/pricing/#standard",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Get Started!')])[2]",
+      "targets": [
+        ["xpath=(//a[contains(text(),'Get Started!')])[2]", "xpath:link"],
+        ["//a[contains(@href, '/hosting/dedicated-servers/pricing/#standard')]", "xpath:href"],
+        ["//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec95e48f-788d-4ca4-ba9e-fe4e670e6fce",
+      "comment": "verify if title is \"Dedicated Servers\"",
+      "command": "verifyText",
+      "target": "css=h1.home-heading",
+      "targets": [
+        ["css=h1.home-heading", "css"],
+        ["//h1", "xpath:position"]
+      ],
+      "value": "Dedicated Servers"
+    }]
+  }, {
+    "id": "364d0f21-6fe3-425d-abef-190aa7bc5e64",
+    "name": "package-description VPS",
+    "commands": [{
+      "id": "94e068f1-1871-4715-aaac-a6f1d66b6214",
+      "comment": "",
+      "command": "open",
+      "target": "https://blazingseollc.com/hosting/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d7c92a9-93b2-4b52-84f0-9e55342b4fc6",
+      "comment": "verify is active link is  Windows VPS",
+      "command": "verifyText",
+      "target": "css=div.package-nav-link.active",
+      "targets": [
+        ["id=defaultOpen", "id"],
+        ["css=#defaultOpen", "css"],
+        ["//div[@id='defaultOpen']", "xpath:attributes"],
+        ["//section[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "WINDOWS VPS"
+    }, {
+      "id": "071b3551-1a66-49ad-9432-e089d36236c9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[@href='/hosting/vps/pricing/#standard']",
+      "targets": [
+        ["id=packages-dedicated", "id"],
+        ["css=#packages-dedicated", "css"],
+        ["//div[@id='packages-dedicated']", "xpath:attributes"],
+        ["//section[3]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ead059cd-df13-4080-aff8-32c197ece31f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=packages-dedicated",
+      "targets": [
+        ["id=packages-vps", "id"],
+        ["css=#packages-vps", "css"],
+        ["//div[@id='packages-vps']", "xpath:attributes"],
+        ["//section[3]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "87dc2f7f-8d49-4293-90b2-7639bd14493b",
+    "name": "Home set",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["59bf63e8-0431-4681-a78a-c5b3678bca08", "364d0f21-6fe3-425d-abef-190aa7bc5e64", "08c5091f-3659-4c96-bbc2-ad5a30dc48ff", "e0a66c4b-cdd1-4e7f-b6b0-4a0525e0ffcf"]
+  }],
+  "urls": [],
+  "plugins": []
+}

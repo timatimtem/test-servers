@@ -1,0 +1,1106 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  overflow-x: hidden;
+  background-color: #d3dff1; }
+
+a {
+  font-family: MetropolisRegular, sans-serif;
+  text-decoration: none;
+  font-weight: bold; }
+
+@font-face {
+  font-family: MetropolisExtraBold;
+  font-display: swap;
+  src: url("../fonts/metropolis/Metropolis-ExtraBold.otf") format("opentype"); }
+
+@font-face {
+  font-family: MetropolisBold;
+  font-display: swap;
+  src: url("../fonts/metropolis/Metropolis-Bold.otf") format("opentype"); }
+
+@font-face {
+  font-family: MetropolisSemiBold;
+  font-display: swap;
+  src: url("../fonts/metropolis/Metropolis-SemiBold.otf") format("opentype"); }
+
+@font-face {
+  font-family: MetropolisMedium;
+  font-display: swap;
+  src: url("../fonts/metropolis/Metropolis-Medium.otf") format("opentype"); }
+
+@font-face {
+  font-family: MetropolisRegular;
+  font-display: swap;
+  src: url("../fonts/metropolis/Metropolis-Regular.otf") format("opentype"); }
+
+.nav-burger {
+  display: inline-block;
+  cursor: pointer;
+  outline: none; }
+  .nav-burger:active {
+    outline: none; }
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s; }
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 7px);
+  transform: rotate(-45deg) translate(-9px, 7px); }
+
+.change .bar2 {
+  opacity: 0; }
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -7px);
+  transform: rotate(45deg) translate(-8px, -7px); }
+
+@media screen and (min-width: 1024px) {
+  .nav-burger {
+    display: none; } }
+
+.top-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1em;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s; }
+  .top-navigation .logo-link {
+    display: inline-block;
+    background: url("../img/logo@2x.png") no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 65px;
+    margin-left: 20px; }
+  .top-navigation .nav-menu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    top: 0;
+    right: 0;
+    text-align: center; }
+    .top-navigation .nav-menu li {
+      display: block;
+      width: 80%;
+      margin: auto; }
+      .top-navigation .nav-menu li.nav-join-us-btn {
+        margin: 1em auto; }
+      .top-navigation .nav-menu li.nav-join-us-btn a {
+        color: #1a5285; }
+      .top-navigation .nav-menu li a {
+        font-size: 1em;
+        display: block;
+        padding: 12px 20px;
+        color: white; }
+        .top-navigation .nav-menu li a:active {
+          background-color: #1a5285; }
+  .top-navigation .nav-menu.active {
+    margin-top: 5.5em;
+    visibility: visible; }
+    .top-navigation .nav-menu.active .nav-more-link > a {
+      display: none; }
+  .top-navigation .nav-login-btn {
+    border: 1px solid white;
+    margin-top: 1em;
+    border-radius: 6px; }
+    .top-navigation .nav-login-btn:hover {
+      background: white; }
+      .top-navigation .nav-login-btn:hover a {
+        color: #2f79dd; }
+      .top-navigation .nav-login-btn:hover:after {
+        display: none; }
+  .top-navigation .nav-join-us-btn {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 6px; }
+    .top-navigation .nav-join-us-btn:hover {
+      background: #d6d6d6; }
+      .top-navigation .nav-join-us-btn:hover:after {
+        display: none; }
+
+.top-navigation.active {
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #1e65be;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  z-index: 10000000000000000000000; }
+  .top-navigation.active .logo-link {
+    margin: 1em; }
+  .top-navigation.active .nav-burger {
+    margin: 1em; }
+
+@media screen and (min-width: 1024px) {
+  .top-navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 1190px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 1000;
+    top: 0; }
+    .top-navigation .logo-link {
+      margin: 0;
+      width: 85px;
+      height: 77px;
+      -webkit-box-flex: 20%;
+      -ms-flex: 20%;
+      flex: 20%; }
+    .top-navigation .nav-menu {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      position: initial;
+      visibility: visible; }
+      .top-navigation .nav-menu li a {
+        position: relative; }
+        .top-navigation .nav-menu li a:hover {
+          color: #1355ba; }
+          .top-navigation .nav-menu li a:hover:before {
+            opacity: 1;
+            visibility: visible;
+            height: 54%; }
+      .top-navigation .nav-menu > li {
+        position: relative; }
+        .top-navigation .nav-menu > li a:before {
+          -webkit-transition: all 0.6s;
+          transition: all 0.6s;
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          margin: auto;
+          width: 86%;
+          height: 1px;
+          content: '.';
+          color: transparent;
+          background: #fff;
+          border-radius: 10px;
+          visibility: hidden;
+          opacity: 0;
+          z-index: -1;
+          padding: 10px; }
+      .top-navigation .nav-menu .nav-more-link {
+        position: relative; }
+        .top-navigation .nav-menu .nav-more-link > a:after {
+          content: '▼';
+          font-size: 0.8em;
+          margin-left: 0.7em; }
+        .top-navigation .nav-menu .nav-more-link:hover:after {
+          display: none; }
+        .top-navigation .nav-menu .nav-more-link:hover .sub-menu {
+          display: block;
+          opacity: 1; }
+      .top-navigation .nav-menu .sub-menu {
+        display: none;
+        width: 100%;
+        position: absolute;
+        -webkit-transition: all 0.8s;
+        transition: all 0.8s;
+        top: 100%;
+        background-color: #fff;
+        border-radius: 6px;
+        opacity: 0;
+        -webkit-transition: all 0.6s;
+        transition: all 0.6s; }
+        .top-navigation .nav-menu .sub-menu li {
+          width: 100%;
+          -webkit-box-shadow: none;
+          box-shadow: none;
+          -webkit-transition: all .15s linear;
+          transition: all .15s linear;
+          border-radius: 10px; }
+          .top-navigation .nav-menu .sub-menu li:hover {
+            background-color: #fff;
+            -webkit-box-shadow: 0 2px 4px rgba(3, 27, 78, 0.06);
+            box-shadow: 0 2px 4px rgba(3, 27, 78, 0.06);
+            position: relative;
+            -webkit-transform: scale(1.05);
+            transform: scale(1.05); }
+          .top-navigation .nav-menu .sub-menu li a {
+            padding: 1em;
+            color: #1a5285; }
+  .nav-join-us-btn {
+    margin-right: 14px !important; } }
+
+header {
+  background: #1653b1;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #1653b1 0%, #2f79dd 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1653b1', endColorstr='#2f79dd',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+  header .container {
+    padding: 80px 1.5em 120px;
+    text-align: center;
+    color: white; }
+    header .container .home-heading {
+      font-family: MetropolisExtraBold, sans-serif;
+      font-size: 40px; }
+    header .container .home-description {
+      font-family: MetropolisMedium, sans-serif;
+      font-size: 16px;
+      margin-top: 2em;
+      line-height: 1.4; }
+
+.servers-packages-section {
+  background: #fff;
+  padding: 7em 0; }
+  .servers-packages-section .container {
+    padding: 0 1.5em; }
+    .servers-packages-section .container .vps-package {
+      margin-bottom: 3.5em; }
+      .servers-packages-section .container .vps-package-title {
+        font-family: MetropolisBold, sans-serif;
+        font-size: 24px;
+        color: #1755b2;
+        margin-bottom: 1em; }
+      .servers-packages-section .container .vps-package .vps-server-item {
+        margin-bottom: 1.5em;
+        border-radius: 10px;
+        -webkit-box-shadow: 0em 0em 8px 0em darkgray;
+        box-shadow: 0em 0em 8px 0em darkgray; }
+        .servers-packages-section .container .vps-package .vps-server-item-title {
+          font-family: MetropolisBold, sans-serif;
+          font-size: 1.5em;
+          color: #505050;
+          margin-bottom: 1em; }
+        .servers-packages-section .container .vps-package .vps-server-item-price {
+          font-size: 19px;
+          color: #353535;
+          font-family: MetropolisSemiBold, sans-serif;
+          margin-bottom: 1em; }
+          .servers-packages-section .container .vps-package .vps-server-item-price .price-inner {
+            margin-left: 10px;
+            font-family: MetropolisExtraBold, sans-serif;
+            font-size: 24px; }
+        .servers-packages-section .container .vps-package .vps-server-item-characteristics {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-left {
+            width: 54%; }
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-left h5 {
+              line-height: 1.4;
+              color: #a6a6a6;
+              font-family: MetropolisMedium, sans-serif;
+              font-size: 14px;
+              margin-top: 10px;
+              height: 30px; }
+          .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right {
+            /*the container must be positioned relative:*/
+            /*style the items (options), including the selected item:*/
+            /*style items (options):*/
+            /*hide the items when the select box is closed:*/ }
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .custom-select {
+              position: relative;
+              font-family: Arial; }
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .custom-select select {
+              display: none;
+              /*hide original SELECT element:*/ }
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-selected {
+              background-color: white;
+              border-radius: 15px;
+              border: 1px solid #b4d1fb;
+              color: #1f63ca;
+              font-family: MetropolisBold, sans-serif; }
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-selected:before, .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-selected:after {
+              content: '';
+              position: absolute;
+              top: 13px;
+              right: 20px;
+              width: 0;
+              height: 0;
+              border: 5px dashed;
+              border-color: #acc5eb transparent;
+              pointer-events: none; }
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-selected:before {
+              border-bottom-style: solid;
+              border-top: none; }
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-selected:after {
+              margin-top: 9px;
+              border-top-style: solid;
+              border-bottom: none; }
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-items div, .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-selected {
+              padding: 12px 23px;
+              cursor: pointer;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+              font-size: 13px; }
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-items div {
+              color: #fff; }
+              .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-items div:first-child {
+                border-top-left-radius: 23px;
+                border-top-right-radius: 23px; }
+              .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-items div:last-child {
+                border-bottom-left-radius: 23px;
+                border-bottom-right-radius: 23px; }
+              .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-items div:hover {
+                background: #2b6fd7;
+                color: #eee; }
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-items {
+              position: absolute;
+              background-color: #1f63cb;
+              top: -100%;
+              left: 0;
+              right: 0;
+              z-index: 99;
+              border-radius: 23px;
+              font-family: MetropolisRegular, sans-serif; }
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-hide {
+              display: none; }
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-arrow-active:before,
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-arrow-active:after {
+              z-index: 10000;
+              border-color: #fff transparent; }
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .same-as-selected {
+              font-family: MetropolisBold, sans-serif; }
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .desktop-view {
+              display: none; }
+            @media screen and (min-width: 1024px) {
+              .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .desktop-view {
+                display: initial; }
+              .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .arrow-none:after,
+              .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .arrow-none:before {
+                display: none; }
+              .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .blank-select {
+                border: 1px solid #b4d1fb;
+                padding: 12px 23px;
+                background: rgba(255, 255, 255, 0.5);
+                font-family: MetropolisBold, sans-serif;
+                cursor: pointer;
+                color: #1f63ca;
+                -webkit-user-select: none;
+                border-radius: 17px;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                font-size: 13px; } }
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-selected:before, .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-selected:after {
+              display: none; }
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-selected {
+              padding: 10px 23px; }
+              .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-selected:after, .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .select-selected:before {
+                top: 10px !important; }
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right p {
+              font-family: MetropolisMedium, sans-serif;
+              margin-top: 9px;
+              line-height: 1.4;
+              font-size: 14px;
+              color: #5d5d5d;
+              display: block;
+              height: 30px; }
+        .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn button {
+          text-align: center;
+          height: 4em;
+          display: block;
+          margin-top: 21px;
+          background: #f5f8fc;
+          border: none;
+          border-bottom-right-radius: 10px;
+          width: 100%;
+          font-family: MetropolisMedium, sans-serif;
+          border-bottom-left-radius: 10px;
+          color: #2064cb; }
+        .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .panel-body {
+          background: #f5f8fc;
+          padding-top: 0; }
+        .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .panel-body.active {
+          border-top-left-radius: 0;
+          border-top-right-radius: 0; }
+        .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .padding-box {
+          padding-top: 0; }
+        .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .package-btn-wrap {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          margin-top: 1.2em; }
+          .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .package-btn-wrap .package-btn {
+            font-family: MetropolisSemiBold, sans-serif;
+            background-color: #f5f5f5;
+            color: #8e8e8e;
+            padding: 0.7em 2.5em;
+            margin: 0 10px;
+            font-size: 14px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            border-radius: 12px; }
+          .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .package-btn-wrap .package-buy-btn {
+            background-color: red;
+            color: white; }
+            .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .package-btn-wrap .package-buy-btn:hover {
+              background: #a80000; }
+    .servers-packages-section .container .padding-box {
+      padding: 1.5em 1.5em 0; }
+
+.desktop-view {
+  display: none !important; }
+
+.price-table-title-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  padding: 10px; }
+  .price-table-title-container h5 {
+    font-family: MetropolisBold, sans-serif;
+    font-size: 12px;
+    padding: 15px;
+    color: #878787; }
+
+@media screen and (min-width: 1024px) {
+  .desktop-view {
+    display: block !important; }
+  .servers-packages-section {
+    -wekit-clip-path: polygon(0% 50px, 50% 0%, 100% 35px, 100% 0%, 100% 95%, 50% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0% 50px, 50% 0%, 100% 35px, 100% 0%, 100% 95%, 50% 100%, 0% 100%);
+    clip-path: polygon(0% 50px, 50% 0%, 100% 35px, 100% 0%, 100% 95%, 50% 100%, 0% 100%); }
+    .servers-packages-section .container {
+      max-width: 1190px;
+      margin: 0 auto; }
+      .servers-packages-section .container .vps-package {
+        margin-bottom: 2em; }
+        .servers-packages-section .container .vps-package .vps-package-title {
+          font-size: 13px; }
+        .servers-packages-section .container .vps-package .vps-server-item {
+          margin-bottom: 1em;
+          border: 1px solid #d5e0f1;
+          -webkit-box-shadow: none;
+          box-shadow: none; }
+          .servers-packages-section .container .vps-package .vps-server-item > .padding-box {
+            cursor: pointer; }
+          .servers-packages-section .container .vps-package .vps-server-item .padding-box {
+            padding: 10px; }
+          .servers-packages-section .container .vps-package .vps-server-item-title {
+            display: none; }
+          .servers-packages-section .container .vps-package .vps-server-item-price {
+            display: none; }
+          .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-left {
+            display: none; }
+          .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right {
+            width: 100%; }
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right .windows-pull-left {
+              position: relative;
+              right: 104px; }
+            .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right > div {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -ms-flex-pack: distribute;
+              justify-content: space-around;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center; }
+              .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right > div p.price {
+                color: #1355ba; }
+              .servers-packages-section .container .vps-package .vps-server-item-characteristics .tt-table-right > div p.more-toggle:after {
+                content: '▼';
+                font-size: 0.8em;
+                margin-left: 0.7em; }
+          .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn button {
+            display: none !important; }
+          .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .panel-body {
+            border-radius: 10px; }
+          .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .panel-body.active {
+            padding: 0;
+            overflow: visible; }
+          .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .padding-box {
+            padding: 15px !important;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: end;
+            -ms-flex-pack: end;
+            justify-content: flex-end; }
+            .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .padding-box .vps-server-item-characteristics {
+              width: 70%; }
+              .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .padding-box .vps-server-item-characteristics .tt-table-right {
+                -webkit-box-pack: space-evenly;
+                -ms-flex-pack: space-evenly;
+                justify-content: space-evenly; }
+                .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .padding-box .vps-server-item-characteristics .tt-table-right .location-inner-wrap {
+                  display: -webkit-box;
+                  display: -ms-flexbox;
+                  display: flex;
+                  -webkit-box-align: center;
+                  -ms-flex-align: center;
+                  align-items: center;
+                  -webkit-box-pack: justify;
+                  -ms-flex-pack: justify;
+                  justify-content: space-between; }
+                  .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .padding-box .vps-server-item-characteristics .tt-table-right .location-inner-wrap > span:first-child {
+                    color: #838b95;
+                    margin-right: 10px; }
+                .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .padding-box .vps-server-item-characteristics .tt-table-right .select-selected {
+                  width: 108px; }
+                .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .padding-box .vps-server-item-characteristics .tt-table-right .select-selected:before, .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .padding-box .vps-server-item-characteristics .tt-table-right .select-selected:after {
+                  display: block !important;
+                  top: 15px; }
+                .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .padding-box .vps-server-item-characteristics .tt-table-right p {
+                  color: #1755b2; }
+                  .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .padding-box .vps-server-item-characteristics .tt-table-right p span {
+                    color: #7c7c7c;
+                    display: inline-block !important;
+                    margin-right: 10px;
+                    font-size: 12px; }
+                .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .padding-box .vps-server-item-characteristics .tt-table-right p.price {
+                  MARGIN-TOP: 3px;
+                  FONT-SIZE: 24PX;
+                  margin-right: 91px;
+                  FONT-FAMILY: MetropolisExtraBold, sans-serif; }
+            .servers-packages-section .container .vps-package .vps-server-item .vps-server-more-btn .padding-box .package-btn-wrap {
+              margin-top: 0; } }
+
+.servers-img {
+  top: 411px;
+  z-index: 10000000;
+  left: 28%;
+  position: absolute; }
+
+@media screen and (min-width: 374px) {
+  .servers-img {
+    top: 362px;
+    left: 29%; } }
+
+@media screen and (min-width: 424px) {
+  .servers-img {
+    top: 362px;
+    left: 35%; } }
+
+@media screen and (min-width: 767px) {
+  .servers-img {
+    top: 362px;
+    left: 41%; } }
+
+@media screen and (min-width: 1024px) {
+  .servers-img {
+    top: 387px;
+    left: 45%; } }
+
+@media screen and (min-width: 1024px) {
+  header {
+    -webkit-clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 86%);
+    clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 86%);
+    margin-bottom: -35px; }
+    header .container {
+      padding: 80px 1.5em 190px; }
+      header .container .home-heading {
+        font-size: 37px; } }
+
+.product-section {
+  background: #f5f5f5;
+  padding: 3em 0 0; }
+  .product-section .products-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0 1.5em; }
+  .product-section .section-header {
+    text-align: center;
+    font-family: MetropolisBold, sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 2em; }
+
+.product {
+  z-index: 100;
+  background: white;
+  margin: 0 auto 2em;
+  max-width: 450px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px 0 darkgray;
+  box-shadow: 0 0 10px 0 darkgray;
+  padding: 2em; }
+  .product:last-child {
+    margin-bottom: 0; }
+  .product .product-img {
+    width: 100%;
+    height: 150px;
+    padding: 0; }
+  .product .product-title {
+    color: #0853a6;
+    text-align: center;
+    font-family: MetropolisBold, sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    text-transform: uppercase; }
+  .product .product-description {
+    margin-top: 2em;
+    font-family: MetropolisRegular, sans-serif;
+    color: #a5a5a5;
+    font-size: 0.9em;
+    line-height: 1.2; }
+  .product .product-footer {
+    margin-top: 3em;
+    font-size: 14px;
+    font-family: MetropolisSemiBold, sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .product .product-footer .product-price {
+      font-size: 1.8em;
+      margin-right: auto;
+      font-family: MetropolisExtraBold, sans-serif;
+      margin-left: 20px; }
+    .product .product-footer .get-started-btn {
+      cursor: pointer;
+      background-color: #185dbf;
+      color: white;
+      font-family: MetropolisBold, sans-serif;
+      font-size: 13px;
+      padding: 10px 12px;
+      border-radius: 10px;
+      margin: 0 auto;
+      -webkit-transition: background-color 0.7s;
+      transition: background-color 0.7s; }
+      .product .product-footer .get-started-btn:hover {
+        background-color: red; }
+
+.img-cloud {
+  margin: 1em auto 2em;
+  display: block; }
+
+.img-product-done {
+  margin: 1em auto 2em;
+  display: block; }
+
+@media screen and (min-width: 1024px) {
+  .product-section {
+    padding: 6em 0;
+    -webkit-clip-path: polygon(0% 5%, 50% 0%, 100% 4%, 100% 0%, 100% 93%, 50% 100%, 0% 100%);
+    clip-path: polygon(0% 5%, 50% 0%, 100% 4%, 100% 0%, 100% 93%, 50% 100%, 0% 100%); }
+    .product-section .section-header {
+      font-size: 20px; }
+    .product-section .products-wrap {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      max-width: 1000px;
+      margin: 0 auto;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .product-section .products-wrap .product {
+        margin: 0 40px !important;
+        background: transparent;
+        padding: 1.8em 2em;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        width: 30%;
+        -webkit-transition: all 0.6s;
+        transition: all 0.6s; }
+        .product-section .products-wrap .product:last-child {
+          margin-bottom: 2em; }
+        .product-section .products-wrap .product .product-description {
+          line-height: 1.6;
+          font-size: 14px;
+          min-height: 60px;
+          max-height: 91px;
+          overflow: hidden; }
+        .product-section .products-wrap .product:hover {
+          background: white;
+          -webkit-box-shadow: 0 0 10px 0 darkgray;
+          box-shadow: 0 0 10px 0 darkgray; }
+        .product-section .products-wrap .product .product-footer {
+          font-family: MetropolisBold, sans-serif;
+          font-size: 16px; }
+          .product-section .products-wrap .product .product-footer .product-price {
+            font-family: MetropolisSemiBold, sans-serif;
+            font-size: 26px;
+            margin-left: 10px; } }
+
+.benefit-section {
+  margin-top: -2em;
+  padding-top: 2em;
+  width: 100%;
+  color: white;
+  background: #2f79dd; }
+  .benefit-section .container {
+    padding: 2em 1.5em 3em; }
+    .benefit-section .container .benefits-section-title {
+      text-align: center;
+      font-family: MetropolisBold, sans-serif;
+      font-size: 1.3em;
+      margin-bottom: 2em; }
+    .benefit-section .container .benefits-section-description {
+      line-height: 1.3;
+      text-align: center;
+      font-family: MetropolisRegular, sans-serif;
+      font-size: 1em; }
+  .benefit-section .benefits-wrap {
+    margin-top: 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .benefit-section .benefits-wrap .benefits-item {
+      text-align: center;
+      width: 40%; }
+      .benefit-section .benefits-wrap .benefits-item .benefit-img {
+        width: 100px;
+        margin: 0 auto;
+        height: 100px; }
+      .benefit-section .benefits-wrap .benefits-item .benefit-title {
+        font-family: MetropolisSemiBold, sans-serif;
+        font-size: 1em; }
+    .benefit-section .benefits-wrap .benefit {
+      background: url("../img/icons.png") no-repeat; }
+      .benefit-section .benefits-wrap .benefit-multiple {
+        background-position: 30px 35px; }
+      .benefit-section .benefits-wrap .benefit-solid {
+        background-position: -66px 35px; }
+      .benefit-section .benefits-wrap .benefit-gbps {
+        background-position: -155px 35px; }
+      .benefit-section .benefits-wrap .benefit-enterprise {
+        background-position: -250px 35px; }
+      .benefit-section .benefits-wrap .benefit-configuration {
+        background-position: 30px -56px; }
+      .benefit-section .benefits-wrap .benefit-support {
+        background-position: -66px -56px; }
+      .benefit-section .benefits-wrap .benefit-hardware {
+        background-position: -155px -56px; }
+      .benefit-section .benefits-wrap .benefit-match {
+        background-position: -250px -56px; }
+
+@media screen and (min-width: 1024px) {
+  .benefit-section {
+    margin: 0;
+    padding: 1em 0;
+    width: 100%;
+    margin-top: -44px;
+    -webkit-clip-path: polygon(0% 0%, 50% 5%, 100% 5%, 100% 100%, 50% 95%, 0% 95%);
+    clip-path: polygon(0% 0%, 50% 5%, 100% 5%, 100% 100%, 50% 95%, 0% 95%);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1355ba+0,2165cc+100 */
+    background: #1355ba;
+    /* Old browsers */
+    /* FF3.6-15 */
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #1355ba 0%, #2165cc 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1355ba', endColorstr='#2165cc',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */ }
+    .benefit-section .container {
+      max-width: 1190px;
+      margin: 0 auto;
+      padding: 7em 0; }
+      .benefit-section .container .benefits-section-title {
+        font-family: MetropolisExtraBold, sans-serif;
+        font-size: 24px;
+        margin-bottom: 44px; }
+      .benefit-section .container .benefits-section-description {
+        font-family: MetropolisMedium, sans-serif;
+        font-size: 15px;
+        width: 42%;
+        margin: 0 auto; }
+      .benefit-section .container .benefits-wrap {
+        padding: 1em 0;
+        margin: auto; }
+        .benefit-section .container .benefits-wrap .benefits-item {
+          width: 24%;
+          padding: 2.5em 0;
+          position: relative; }
+          .benefit-section .container .benefits-wrap .benefits-item img {
+            position: relative;
+            top: 0;
+            -webkit-transition: all 0.7s;
+            transition: all 0.7s; }
+          .benefit-section .container .benefits-wrap .benefits-item .benefit-title {
+            font-size: 14px;
+            font-family: MetropolisBold, sans-serif; }
+          .benefit-section .container .benefits-wrap .benefits-item:hover img {
+            top: -20px; } }
+
+@media screen and (min-width: 1024px) {
+  .benefit-section .container .benefits-section-title {
+    margin-bottom: 44px; }
+  .benefit-section .container .benefits-wrap {
+    width: 68%; }
+  .benefit-section .container .benefits-wrap .benefits-item {
+    width: 32%; } }
+
+.faq-section {
+  padding: 3em 0;
+  background: white; }
+  .faq-section .section-header {
+    text-align: center;
+    font-size: 27px;
+    font-family: MetropolisExtraBold, sans-serif; }
+  .faq-section .section-description {
+    text-align: center;
+    margin-top: 2em;
+    color: #858585;
+    font-family: MetropolisSemiBold, sans-serif; }
+  .faq-section .container {
+    padding: 0 1.5em;
+    margin-top: 1em; }
+    .faq-section .container .faq-item {
+      margin: 1em 0; }
+
+.accordion {
+  background-color: #1c5dc1;
+  color: white;
+  cursor: pointer;
+  padding: 15px 1.5em;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-family: MetropolisBold, sans-serif;
+  border-radius: 6px; }
+  .accordion:hover {
+    background: #1a4d9a; }
+  .accordion .panel-title {
+    position: relative;
+    width: 85%; }
+    .accordion .panel-title:after {
+      content: "+";
+      border-radius: 50%;
+      width: 16px;
+      height: 16px;
+      padding: 4px;
+      background: #ffffff;
+      position: absolute;
+      color: #1b5dc1;
+      text-align: center;
+      right: -44px;
+      top: 3px;
+      font: 16px MetropolisExtraBold, sans-serif;
+      font-weight: bold; }
+
+.panel-body {
+  color: #1958ba;
+  font-size: 13px;
+  font-family: MetropolisMedium, sans-serif;
+  padding: 0 1.5em;
+  background-color: #cedaec;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  border-radius: 6px; }
+
+.accordion.active {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.panel-body.active {
+  max-height: -webkit-min-content;
+  max-height: -moz-min-content;
+  max-height: min-content;
+  padding: 1.5em;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
+
+@media screen and (min-width: 1024px) {
+  .faq-section {
+    margin-top: -38px;
+    -webkit-clip-path: polygon(0% 50px, 50% 0%, 100% 38px, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 50px, 50% 0%, 100% 38px, 100% 100%, 0% 100%);
+    padding: 6em 0; }
+    .faq-section .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2EM 0; }
+      .faq-section .container .faq-item .accordion {
+        padding: 25px 40px;
+        font-size: 16px; }
+        .faq-section .container .faq-item .accordion .panel-title {
+          width: 100%; }
+          .faq-section .container .faq-item .accordion .panel-title:after {
+            width: 20px;
+            height: 20px;
+            padding: 5px;
+            right: 0;
+            top: -6px;
+            font: 22px MetropolisExtraBold, sans-serif; }
+      .faq-section .container .faq-item .panel-body {
+        font-size: 15px;
+        padding: 0 40px;
+        line-height: 1.4; }
+      .faq-section .container .faq-item .panel-body.active {
+        padding: 40px; } }
+
+footer {
+  background-color: #003386;
+  width: 100%;
+  color: white; }
+  footer .copyright {
+    font-family: MetropolisRegular, sans-serif;
+    font-size: 12px;
+    padding: 1em; }
+  footer .footer-nav-wrap {
+    padding: 1em 0 0 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    footer .footer-nav-wrap .footer-nav-item {
+      padding: 1em 0;
+      width: 50%; }
+      footer .footer-nav-wrap .footer-nav-item h4 {
+        font-family: MetropolisExtraBold, sans-serif;
+        font-size: 16px; }
+      footer .footer-nav-wrap .footer-nav-item ul {
+        margin-top: 0.5em; }
+        footer .footer-nav-wrap .footer-nav-item ul li a {
+          display: block;
+          padding: 10px 0;
+          color: white;
+          font-family: MetropolisRegular, sans-serif;
+          font-size: 14px;
+          font-weight: 300; }
+    footer .footer-nav-wrap .footer-nav-img-wrap {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start; }
+      footer .footer-nav-wrap .footer-nav-img-wrap li {
+        margin-bottom: 5px;
+        width: 60px;
+        height: 55px;
+        border-radius: 10px; }
+        footer .footer-nav-wrap .footer-nav-img-wrap li a {
+          width: 100%;
+          height: 100%; }
+      footer .footer-nav-wrap .footer-nav-img-wrap .footer-nav-img {
+        display: block;
+        height: 100%;
+        width: 100%;
+        background: url("../img/Icons Footer.png") no-repeat; }
+      footer .footer-nav-wrap .footer-nav-img-wrap .logo {
+        background-position: 0 0; }
+      footer .footer-nav-wrap .footer-nav-img-wrap .facebook {
+        background-position: -135px 0; }
+      footer .footer-nav-wrap .footer-nav-img-wrap .twitter {
+        background-position: -69px 2px; }
+
+@media screen and (min-width: 1024px) {
+  footer {
+    padding: 2em 0; }
+    footer .footer-nav-wrap {
+      max-width: 1190px;
+      margin: 0 auto; }
+      footer .footer-nav-wrap .footer-nav-item {
+        width: 25%; }
+        footer .footer-nav-wrap .footer-nav-item ul {
+          margin-top: 2em; }
+          footer .footer-nav-wrap .footer-nav-item ul li a {
+            padding: 1em 0; }
+            footer .footer-nav-wrap .footer-nav-item ul li a:hover {
+              text-decoration: underline; }
+      footer .footer-nav-wrap .footer-nav-img-wrap li {
+        margin-right: 15px; }
+        footer .footer-nav-wrap .footer-nav-img-wrap li .twitter {
+          background-position: -64px 0; }
+  .copyright {
+    max-width: 1200px;
+    padding: 2em;
+    margin: 0 auto; } }

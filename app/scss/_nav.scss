@@ -21,8 +21,7 @@
 
   .logo-link{
     display: inline-block;
-
-    background: url("../img/logo-servers.png") no-repeat;
+    background: url("../img/logo@2x.png") no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
     width: 80px;
@@ -180,8 +179,8 @@
 
     .logo-link{
       margin: 0;
-      width: 100px;
-      height: 80px;
+      width: 85px;
+      height: 77px;
       flex: 20%;
     }
     .nav-menu{
@@ -320,11 +319,8 @@
 
           a{
             padding: 1em;
-
+            font-size: 12px;
             color: #1a5285;
-
-
-
 
 
           }
